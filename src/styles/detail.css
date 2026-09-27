@@ -1,0 +1,210 @@
+/* ==========================================================================
+   Ficha de juego (modal con animacion)
+
+   La caratula vuela desde la tarjeta original hasta su lugar final y la
+   descripcion aparece al costado. Las posiciones las calcula GameDetail y las
+   pasa por --fx/--fy/--fw/--fh, asi que aqui solo hay que animarlas.
+   ========================================================================== */
+
+.detail {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+}
+
+/* Fondo oscurecido */
+.detail__scrim {
+  position: absolute;
+  inset: 0;
+  background: rgba(3, 4, 8, 0.86);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  opacity: 0;
+  transition: opacity 0.45s var(--ease);
+}
+
+.detail.is-open .detail__scrim {
+  opacity: 1;
+}
+
+/* La tarjeta "vuela" hasta la izquierda */
+.detail__flyer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: var(--fw);
+  height: var(--fh);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transform: translate3d(var(--fx), var(--fy), 0) rotate(var(--frot));
+  transform-origin: top left;
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.7);
+  transition:
+    transform 0.62s var(--ease),
+    width 0.62s var(--ease),
+    height 0.62s var(--ease),
+    border-radius 0.4s var(--ease);
+  will-change: transform, width, height;
+  pointer-events: none;
+}
+
+.detail__flyer-cover {
+  width: 100%;
+  height: 100%;
+}
+
+/* Panel de descripcion. El alto/ancho maximo los calcula GameDetail y los
+   pasa por --panel-max-h / --panel-max-w para que no haya dos fuentes. */
+.detail__panel {
+  position: relative;
+  z-index: 1;
+  margin-left: auto;
+  width: min(var(--panel-max-w, 520px), 100%);
+  height: 100%;
+  padding: clamp(22px, 3vw, 40px);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  overflow-y: auto;
+  background: linear-gradient(180deg, var(--bg-2), var(--bg));
+  border-left: 1px solid var(--line);
+  opacity: 0;
+  transform: translateX(40px);
+  transition: opacity 0.5s var(--ease) 0.16s, transform 0.5s var(--ease) 0.16s;
+}
+
+.detail.is-open .detail__panel {
+  opacity: 1;
+  transform: none;
+}
+
+/* Escritorio: panel como tarjeta, al costado de la caratula */
+@media (min-width: 1180px) {
+  .detail__panel {
+    margin-right: var(--panel-margin, 64px);
+    height: auto;
+    max-height: var(--panel-max-h, 80vh);
+    align-self: center;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow);
+  }
+}
+
+/* Celular: panel como hoja inferior, la caratula queda arriba */
+@media (max-width: 1179px) {
+  .detail__panel {
+    margin-left: 0;
+    align-self: flex-end;
+    width: 100%;
+    height: auto;
+    max-height: var(--panel-max-h, 54vh);
+    padding-bottom: calc(22px + env(safe-area-inset-bottom, 0px));
+    border-left: 0;
+    border-top: 1px solid var(--line);
+    border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+    box-shadow: 0 -20px 50px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.detail__head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.detail__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 13px;
+  border-radius: 999px;
+  font-size: 0.73rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.tag--players {
+  background: var(--accent);
+  color: #08090e;
+}
+
+.tag--genre {
+  border: 1px solid color-mix(in srgb, var(--accent) 45%, transparent);
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 10%, transparent);
+}
+
+.detail__close {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  border: 1px solid var(--line-strong);
+  background: rgba(255, 255, 255, 0.05);
+  font-size: 1.1rem;
+  line-height: 1;
+  transition: background 0.2s, transform 0.2s, border-color 0.2s;
+}
+
+.detail__close:hover {
+  background: var(--brand);
+  border-color: var(--brand);
+  color: #fff;
+  transform: rotate(90deg);
+}
+
+.detail__title {
+  margin-top: 4px;
+  font-size: clamp(1.6rem, 3.2vw, 2.4rem);
+  line-height: 1.15;
+  text-wrap: balance;
+}
+
+.detail__year {
+  margin-top: -6px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: var(--text-3);
+}
+
+.detail__desc {
+  color: var(--text-2);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.detail__spacer {
+  flex: 1;
+  min-height: 12px;
+}
+
+.detail__contact {
+  align-self: flex-start;
+  padding: 12px 24px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #08090e;
+  font-weight: 700;
+  font-size: 0.92rem;
+  transition: transform 0.25s var(--ease), box-shadow 0.25s;
+}
+
+.detail__contact:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,197 @@
+/* ==========================================================================
+   Portada (hero)
+   ========================================================================== */
+
+.hero {
+  position: relative;
+  padding-block: clamp(64px, 12vw, 132px) clamp(48px, 8vw, 88px);
+}
+
+.hero__inner {
+  text-align: center;
+  display: grid;
+  justify-items: center;
+  gap: 20px;
+}
+
+.hero__eyebrow {
+  display: inline-block;
+  padding: 6px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--line-strong);
+  background: rgba(255, 255, 255, 0.04);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-2);
+}
+
+.hero__title {
+  font-size: clamp(2.6rem, 8vw, 5.6rem);
+  letter-spacing: -0.035em;
+  background: linear-gradient(180deg, #ffffff 30%, #97a0bd);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.hero__text {
+  max-width: 58ch;
+  color: var(--text-2);
+  font-size: clamp(1rem, 1.6vw, 1.15rem);
+}
+
+.hero__scroll {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+  padding: 12px 24px;
+  border-radius: 999px;
+  border: 1px solid var(--line-strong);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-2);
+  transition: color 0.25s, border-color 0.25s, transform 0.25s var(--ease);
+}
+
+.hero__scroll:hover {
+  color: var(--text);
+  border-color: var(--brand);
+  transform: translateY(2px);
+}
+
+.hero__scroll span {
+  animation: nudge 1.8s var(--ease) infinite;
+}
+
+@keyframes nudge {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(4px);
+  }
+}
+
+/* ==========================================================================
+   Selector de consolas
+   ========================================================================== */
+
+.consoles {
+  padding-block: clamp(48px, 8vw, 96px);
+}
+
+.consoles__head {
+  text-align: center;
+  margin-bottom: clamp(32px, 5vw, 56px);
+}
+
+.consoles__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 18px;
+}
+
+.console {
+  position: relative;
+  display: grid;
+  gap: 6px;
+  height: 100%;
+  padding: 22px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--line);
+  background: linear-gradient(180deg, var(--surface), var(--bg-3));
+  overflow: hidden;
+  isolation: isolate;
+  transition: transform 0.4s var(--ease), border-color 0.3s, box-shadow 0.4s var(--ease);
+}
+
+.console__glow {
+  position: absolute;
+  inset: -40% 30% 60% -30%;
+  z-index: -1;
+  background: var(--accent);
+  opacity: 0.16;
+  filter: blur(60px);
+  transition: opacity 0.4s, inset 0.5s var(--ease);
+}
+
+.console:hover {
+  transform: translateY(-6px);
+  border-color: color-mix(in srgb, var(--accent) 55%, transparent);
+  box-shadow: 0 22px 50px rgba(0, 0, 0, 0.5);
+}
+
+.console:hover .console__glow {
+  opacity: 0.3;
+  inset: -30% 10% 50% -10%;
+}
+
+.console__preview {
+  display: flex;
+  height: 148px;
+  margin-bottom: 12px;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.console__mini {
+  flex: 1;
+  min-width: 0;
+  border-left: 1px solid rgba(0, 0, 0, 0.5);
+  transform: translateX(calc(var(--gi) * -4px));
+  transition: transform 0.45s var(--ease);
+}
+
+.console__mini:first-child {
+  border-left: 0;
+}
+
+.console:hover .console__mini {
+  transform: translateX(calc(var(--gi) * -8px));
+}
+
+.console__mini .cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.console__short {
+  font-family: 'Outfit', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--accent);
+}
+
+.console__name {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 600;
+  font-size: 0.98rem;
+}
+
+.console__tagline {
+  color: var(--text-3);
+  font-size: 0.86rem;
+  line-height: 1.5;
+}
+
+.console__count {
+  margin-top: 8px;
+  padding-top: 10px;
+  border-top: 1px solid var(--line);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-3);
+}
+
+.console:hover .console__count {
+  color: var(--accent);
+}

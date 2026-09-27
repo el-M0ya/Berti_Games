@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Berti Games</title>
+    <script>
+      /*
+        GitHub Pages no reescribe URLs: si alguien entra directo a
+        /consola/ps2 el servidor devuelve este 404.html.
+        Lo redirigimos a index.html pasando la ruta original en ?p=...
+        main.jsx la restaura antes de montar React Router.
+      */
+      (function () {
+        var ruta = window.location.pathname + window.location.search + window.location.hash
+        // La carpeta donde vive el sitio: todo menos el ultimo segmento.
+        var base = window.location.pathname.replace(/\/[^/]*$/, '/')
+        var destino = base + 'index.html'
+        if (ruta !== base && ruta !== '') {
+          destino += '?p=' + encodeURIComponent(ruta)
+        }
+        window.location.replace(destino)
+      })()
+    </script>
+  </head>
+  <body>
+    <p>Redirigiendo...</p>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+/* Orden de importacion: reset -> variables -> componentes */
+
+@import './reset.css';
+@import './theme.css';
+@import './layout.css';
+@import './navbar.css';
+@import './home.css';
+@import './console.css';
+@import './card.css';
+@import './detail.css';
+@import './contact.css';
+@import './piracy.css';
+@import './footer.css';

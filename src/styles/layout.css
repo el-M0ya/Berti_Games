@@ -1,0 +1,87 @@
+/* ==========================================================================
+   Layout general
+   ========================================================================== */
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app__main {
+  flex: 1;
+}
+
+.wrap,
+.hero__inner,
+.consoles,
+.contact,
+.console-page,
+.piracy,
+.notfound {
+  width: 100%;
+  max-width: var(--maxw);
+  margin-inline: auto;
+  padding-inline: 24px;
+}
+
+.section__title {
+  font-size: clamp(1.9rem, 4vw, 3rem);
+  margin-bottom: 8px;
+}
+
+.section__sub {
+  color: var(--text-2);
+  max-width: 62ch;
+}
+
+/* Fondo decorativo global */
+.app::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background:
+    radial-gradient(60rem 40rem at 15% -10%, rgba(124, 92, 255, 0.16), transparent 60%),
+    radial-gradient(50rem 32rem at 95% 5%, rgba(255, 77, 109, 0.12), transparent 60%),
+    var(--bg);
+}
+
+/* ==========================================================================
+   Botones
+   ========================================================================== */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 13px 26px;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: transform 0.25s var(--ease), background 0.25s, border-color 0.25s, box-shadow 0.25s;
+  white-space: nowrap;
+}
+
+.btn--primary {
+  background: linear-gradient(135deg, var(--brand), var(--brand-2));
+  color: #fff;
+  box-shadow: 0 10px 30px rgba(255, 77, 109, 0.28);
+}
+
+.btn--primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 40px rgba(255, 77, 109, 0.4);
+}
+
+.btn--ghost {
+  border: 1px solid var(--line-strong);
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.btn--ghost:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: var(--text-3);
+  transform: translateY(-2px);
+}

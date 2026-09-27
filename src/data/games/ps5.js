@@ -1,0 +1,78 @@
+/**
+ * Catalogo PlayStation 5. Lo genera `tools/scan_games.py`.
+ * Ver `ps2.js` para la forma de cada objeto.
+ */
+export const PS5_GAMES = [
+  {
+    id: 'demons-souls',
+    title: 'Demons Souls',
+    year: 2020,
+    cover: '',
+    players: ['1 jugador', 'Multijugador'],
+    genre: 'Rol de accion',
+    description: 'Remake de PS3 con texturas, audio y animaciones rehechas por completo.',
+  },
+  {
+    id: 'marvels-spider-man-miles-morales',
+    title: 'Marvels Spider-Man: Miles Morales',
+    year: 2020,
+    cover: '',
+    players: ['1 jugador'],
+    genre: 'Accion-aventura',
+    description: 'Miles Morales en Harlem. Movimientos nuevos y doble tela de traje.',
+  },
+  {
+    id: 'ratchet-and-clank-rift-apart',
+    title: 'Ratchet and Clank: Rift Apart',
+    year: 2021,
+    cover: '',
+    players: ['1 jugador', 'Multijugador'],
+    genre: 'Plataformas',
+    description: 'Dos dimensionalidades viajan juntas. Exclusivo de PS5 con ray tracing.',
+  },
+  {
+    id: 'horizon-forbidden-west',
+    title: 'Horizon Forbidden West',
+    year: 2022,
+    cover: '',
+    players: ['1 jugador'],
+    genre: 'Accion-aventura',
+    description: 'Aloy va al oeste a salvar a una Familiar. Maquinas Commandants nuevas.',
+  },
+  {
+    id: 'elden-ring',
+    title: 'Elden Ring',
+    year: 2022,
+    cover: '',
+    players: ['1 jugador', 'Multijugador'],
+    genre: 'Rol de accion',
+    description: 'Igual que en PS4 pero con QoL features y mejor rendimiento y ray tracing.',
+  },
+  {
+    id: 'god-of-war-ragnarok',
+    title: 'God of War Ragnarok',
+    year: 2022,
+    cover: '',
+    players: ['1 jugador'],
+    genre: 'Accion-aventura',
+    description: 'Kratos y Atreus contra Odin. Valhalla y mas de cien enemigos distintos.',
+  },
+  {
+    id: 'gran-turismo-7',
+    title: 'Gran Turismo 7',
+    year: 2022,
+    cover: '',
+    players: ['1 jugador', 'Multijugador', 'Local 2-4'],
+    genre: 'Simulacion de carreras',
+    description: 'Igual que en PS4 pero con imagen mucho mas fluida en PS5.',
+  },
+  {
+    id: 'death-stranding-directors-cut',
+    title: 'Death Stranding Directors Cut',
+    year: 2022,
+    cover: '',
+    players: ['1 jugador'],
+    genre: 'Aventura',
+    description: 'Sam reconecta America al isolation. Entrega paquetes a pie y en moto.',
+  },
+]

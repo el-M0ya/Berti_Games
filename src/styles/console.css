@@ -1,0 +1,137 @@
+/* ==========================================================================
+   Cabecera de pagina de consola / pirateo
+   ========================================================================== */
+
+.page-head {
+  position: relative;
+  padding-block: clamp(40px, 6vw, 72px) clamp(20px, 3vw, 32px);
+}
+
+.page-head::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--accent, var(--line-strong)), transparent);
+  opacity: 0.5;
+}
+
+.page-head--warm {
+  --accent: var(--warm);
+}
+
+.crumbs {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 18px;
+  font-size: 0.85rem;
+  color: var(--text-3);
+}
+
+.crumbs a:hover {
+  color: var(--text);
+}
+
+.page-head__title {
+  font-size: clamp(2.2rem, 6vw, 4rem);
+  color: var(--accent, var(--text));
+}
+
+.page-head__sub {
+  margin-top: 12px;
+  max-width: 64ch;
+  color: var(--text-2);
+}
+
+.page-head__meta {
+  margin-top: 16px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-3);
+}
+
+/* ==========================================================================
+   Filtros
+   ========================================================================== */
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-block: 28px 8px;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 16px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.03);
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--text-2);
+  transition: color 0.2s, border-color 0.2s, background 0.2s;
+}
+
+.chip:hover {
+  color: var(--text);
+  border-color: var(--line-strong);
+}
+
+.chip.is-active {
+  color: #fff;
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.chip__count {
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.25);
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.chip:not(.is-active) .chip__count {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.empty {
+  padding: 60px 0;
+  text-align: center;
+  color: var(--text-3);
+}
+
+/* ==========================================================================
+   Grilla de tarjetas
+   ========================================================================== */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 20px;
+  padding-block: 24px 8px;
+}
+
+.grid__item {
+  animation: rise 0.5s var(--ease-out) both;
+  animation-delay: calc(var(--i, 0) * 25ms);
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}

@@ -1,0 +1,108 @@
+/* ==========================================================================
+   Seccion Pirateo
+   ========================================================================== */
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+  padding-block: 32px 8px;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 28px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--line);
+  background: linear-gradient(180deg, var(--surface), var(--bg-3));
+  transition: border-color 0.3s, transform 0.4s var(--ease);
+}
+
+.service:hover {
+  transform: translateY(-4px);
+  border-color: color-mix(in srgb, var(--warm) 45%, transparent);
+}
+
+.service__head {
+  display: grid;
+  gap: 4px;
+}
+
+.service__title {
+  font-size: 1.4rem;
+}
+
+.service__console {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--warm);
+}
+
+.service__desc {
+  color: var(--text-2);
+  font-size: 0.95rem;
+}
+
+.prices {
+  width: 100%;
+  margin-top: auto;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+
+.prices th {
+  padding-bottom: 8px;
+  text-align: left;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-3);
+  border-bottom: 1px solid var(--line);
+}
+
+.prices th:last-child,
+.prices td:last-child {
+  text-align: right;
+  white-space: nowrap;
+}
+
+.prices td {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+
+.prices tr:last-child td {
+  border-bottom: 0;
+}
+
+.prices__name {
+  display: block;
+  font-weight: 600;
+}
+
+.prices__notes {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--text-3);
+}
+
+.prices__value {
+  font-weight: 700;
+  color: var(--warm);
+}
+
+.piracy__note {
+  margin-top: 28px;
+  padding: 16px 20px;
+  border-radius: var(--radius-sm);
+  border: 1px dashed var(--line-strong);
+  background: rgba(255, 164, 61, 0.05);
+  font-size: 0.86rem;
+  color: var(--text-2);
+}
