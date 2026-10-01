@@ -37,6 +37,12 @@ jobs:
       - name: Test detail animation geometry
         run: node tools/test_geometry.mjs
 
+      - name: Test PS5 title cleaning
+        run: python tools/test_ps5_titles.py
+
+      - name: Test Wikipedia match filter
+        run: python tools/test_wiki_filter.py
+
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

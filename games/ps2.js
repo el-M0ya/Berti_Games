@@ -78,7 +78,7 @@ export const PS2_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/234/234fc1e9ace7b13f1b56e35b21133e46.jpg',
     players: ['1 jugador'],
     genre: 'Educational',
-    description: 'Overview You\'re a worker at Factor-y. Produce requested numbers by multiplying FACTORs. Produce as much as you can to get a high score!  This game was created for Trijam #57: The 3 hour game jam. (Theme: Factory) How to play BasicsClick a button at the bottom to multiply a FACTOR (a number) to...',
+    description: 'Overview You\'re a worker at Factor-y. Produce requested numbers by multiplying FACTORs. Produce as much as you can to get a high score!  This game was created for Trijam #57: The 3 hour game jam. (Theme: Factory) How to play BasicsClick a button at the bottom to multiply a FACTOR (a number) to...',
   },
   {
     id: '24-horas',
@@ -294,7 +294,7 @@ export const PS2_GAMES = [
     cover: 'https://via.placeholder.com/264x376?text=Alfa%20Romeo%20Racing%20It',
     players: ['1 jugador'],
     genre: 'Variado',
-    description: 'Your driver is your biggest asset as you gain more experience in this Racing-RPG hybrid. Upgrade the driver’s skills and the first place finish is yours. Published by Valcon Games LLC. Racing Italiano is a trademark of Valcon Games LLC. ©2006 Black Bean Games. Developed by Milestone, Italy. All...',
+    description: 'Your driver is your biggest asset as you gain more experience in this Racing-RPG hybrid. Upgrade the driver’s skills and the first place finish is yours.  Published by Valcon Games LLC. Racing Italiano is a trademark of Valcon Games LLC. ©2006 Black Bean Games. Developed by Milestone, Italy. All...',
   },
   {
     id: 'alias',
@@ -672,7 +672,7 @@ export const PS2_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/64f/64ffc7c1be98fbe4a85761de4bcc3cdc.jpg',
     players: ['1 jugador'],
     genre: 'Action, Racing',
-    description: 'With a flashy 80\'s style theme that never gets old and a gameplay inspired by one of the coolest racing games ever made, Road Fury pays homage to early video-game titles with a totally reimagined art style and mechanic. The game features: - 3D graphics with flat-shading on artistic low-poly m...',
+    description: 'With a flashy 80\'s style theme that never gets old and a gameplay inspired by one of the coolest racing games ever made, Road Fury pays homage to early video-game titles with a totally reimagined art style and mechanic.  The game features: - 3D graphics with flat-shading on artistic low-poly m...',
   },
   {
     id: 'atv-quad-power-racing-2',
@@ -1473,7 +1473,7 @@ export const PS2_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/e97/e97bb0da51e69f6a1d4bb816a0d4540a.jpg',
     players: ['1 jugador'],
     genre: 'Puzzle',
-    description: 'Tema: Protetores da natureza Diversificadores : Recortar e Colar e Hyper Casual #hypercasual #PC Time: Gustavo Gonçalves Borges - Sound Design, Recife - PE - Brasil Lukas Henrique Braga Dias - Programador, São Luís - MA - Brasil Rafael Solano de Sousa Cantanhede - Artista, São Luis - MA - Brasil ...',
+    description: 'Tema: Protetores da natureza Diversificadores : Recortar e Colar e Hyper Casual #hypercasual #PC Time: Gustavo Gonçalves Borges - Sound Design, Recife - PE - Brasil Lukas Henrique Braga Dias - Programador, São Luís - MA - Brasil Rafael Solano de Sousa Cantanhede - Artista, São Luis - MA - Brasil...',
   },
   {
     id: 'catz-ps2dvd-strike',
@@ -1563,7 +1563,7 @@ export const PS2_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/406/406be2d71a39754be5d953b3dc330fc0.jpg',
     players: ['1 jugador'],
     genre: 'Platformer',
-    description: 'This is a homebrought game, run on Gameboy Color. Original version: Taito - MSX, 1984. Created with GB-Studio 2.0.0 beta5! The player takes the role of a yellow Volkswagen Beetle (Type 1) Choro-Q, with a surfboard carrier on its roof. The objective of the game is to assemble two more VW Beetl...',
+    description: 'This is a homebrought game, run on Gameboy Color. Original version: Taito - MSX, 1984. Created with GB-Studio 2.0.0 beta5!    The player takes the role of a yellow Volkswagen Beetle (Type 1) Choro-Q, with a surfboard carrier on its roof. The objective of the game is to assemble two more VW Beetl...',
   },
   {
     id: 'circuit-blasters',
@@ -4074,7 +4074,7 @@ export const PS2_GAMES = [
     cover: 'https://media.rawg.io/media/games/070/070170a090b7455613e43f977f6cccaf.jpg',
     players: ['1 jugador'],
     genre: 'Variado',
-    description: 'In Gungrave, you play Grave, a long dead assassin sent back from the dead to annihilate endless hordes of enemies. Players battle their way through massive areas filled with non-stop shooting foes in this anime-style, third person shooter.  You blast through the stages using your two weapons wi...',
+    description: 'In Gungrave, you play Grave, a long dead assassin sent back from the dead to annihilate endless hordes of enemies. Players battle their way through massive areas filled with non-stop shooting foes in this anime-style, third person shooter.   You blast through the stages using your two weapons wi...',
   },
   {
     id: 'hansel-gretel',
@@ -4614,7 +4614,7 @@ export const PS2_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/db0/db020ea37b41fca2f88000c0a99e8abe.jpg',
     players: ['1 jugador', '2 jugadores', '4 jugadores'],
     genre: 'Action',
-    description: 'Rumble Fighter is a free-to-play fighting MMO game with real mixed martial arts and fast-paced beat-em-up action! Brawl with your friends and train to become the top Rumble Fighter!  Story  A long time ago, the Dark Lord broke the peace treaty with the Gods, and commanded his dark forces to co...',
+    description: 'Rumble Fighter is a free-to-play fighting MMO game with real mixed martial arts and fast-paced beat-em-up action! Brawl with your friends and train to become the top Rumble Fighter!   Story  A long time ago, the Dark Lord broke the peace treaty with the Gods, and commanded his dark forces to co...',
   },
   {
     id: 'jax-y-daxter-2',
@@ -5028,7 +5028,7 @@ export const PS2_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/577/577e6f655a548eca7076fce790c360a8.jpg',
     players: ['1 jugador'],
     genre: 'Action, Adventure, Indie',
-    description: '24 hours have changed the world altogether. The gates to the Hell have opened. The city where yesterday the sun shone and the life throve has drowned in the darkness. Demons have swarmed the streets, forests and fields.The fear and atrocities reign. The peoples are in captivity of the demons.  Y...',
+    description: '24 hours have changed the world altogether. The gates to the Hell have opened. The city where yesterday the sun shone and the life throve has drowned in the darkness. Demons have swarmed the streets, forests and fields.The fear and atrocities reign. The peoples are in captivity of the demons. Y...',
   },
   {
     id: 'legacy-of-kain-defiance',
@@ -5154,7 +5154,7 @@ export const PS2_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/32d/32def4e55e47026d18b5f525991b5fe3.jpg',
     players: ['1 jugador'],
     genre: 'Adventure, Indie',
-    description: 'A lost colony on a distant planet. An outpost of humanity, haunted by memories of madness and conspiracy. A station crew no longer responding to communications. Concerned about the safety of their investment, Human Resources Specialist, Elizabeth Woolgather is dispatched by the ‘Corporation...',
+    description: 'A lost colony on a distant planet.  An outpost of humanity, haunted by memories of madness and conspiracy.  A station crew no longer responding to communications.  Concerned about the safety of their investment, Human Resources Specialist, Elizabeth Woolgather is dispatched by the ‘Corporation...',
   },
   {
     id: 'leyend-of-claudis',
@@ -5325,7 +5325,7 @@ export const PS2_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/3fa/3fa00815470897c5ed970faaef1a1292.jpg',
     players: ['1 jugador', '2 jugadores', '4 jugadores'],
     genre: 'Action, Adventure, Simulation, Indie',
-    description: 'Embark on a spine-chilling adventure in "Malice," a bone-rattling horror game that will test your courage and wits. Step into the shoes of a fearless paranormal investigator tasked with uncovering haunted objects and purging them of their malevolent spirits. Explore the eerie environments of ei...',
+    description: 'Embark on a spine-chilling adventure in "Malice," a bone-rattling horror game that will test your courage and wits. Step into the shoes of a fearless paranormal investigator tasked with uncovering haunted objects and purging them of their malevolent spirits.  Explore the eerie environments of ei...',
   },
   {
     id: 'manhunt',
@@ -5793,7 +5793,7 @@ export const PS2_GAMES = [
     cover: 'https://media.rawg.io/media/games/5e0/5e0c759b554842830e44f5f07e16e37c.jpg',
     players: ['1 jugador', '2 jugadores', '4 jugadores'],
     genre: 'Variado',
-    description: 'Oh no! Old man Nebbercracker\'s house is eating anything and anyone who gets near it, and Halloween is almost here! So grab your Water Blaster, gather up your courage, and get ready to explore the Monster House to find out its secrets. Do you have what it takes to save the ...',
+    description: 'Oh no! Old man Nebbercracker\'s house is eating anything and anyone who        gets near it, and Halloween is almost here! So grab your Water Blaster,        gather up your courage, and get ready to explore the Monster House to        find out its secrets. Do you have what it takes to save the ...',
   },
   {
     id: 'monster-hunter',
@@ -6558,7 +6558,7 @@ export const PS2_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/7be/7be311ccbec64d539061b9f5c8ed341b.jpg',
     players: ['1 jugador', '2 jugadores', '4 jugadores'],
     genre: 'Strategy',
-    description: 'Unite feudal Japan as Oda Nobunaga in an epic strategic campaign.  Will you rule through diplomacy, or crush your rivals into submission? This title has been converted from the original PlayStation®2 version to the PS3™ system. Consequently, there may be times where the title plays differently...',
+    description: 'Unite feudal Japan as Oda Nobunaga in an epic strategic campaign.  Will you rule through diplomacy, or crush your rivals into submission?  This title has been converted from the original PlayStation®2 version to the PS3™ system. Consequently, there may be times where the title plays differently...',
   },
   {
     id: 'nppl-championship-paintbal-2009',
@@ -6774,7 +6774,7 @@ export const PS2_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/32d/32def4e55e47026d18b5f525991b5fe3.jpg',
     players: ['1 jugador'],
     genre: 'Adventure, Indie',
-    description: 'A lost colony on a distant planet. An outpost of humanity, haunted by memories of madness and conspiracy. A station crew no longer responding to communications. Concerned about the safety of their investment, Human Resources Specialist, Elizabeth Woolgather is dispatched by the ‘Corporation...',
+    description: 'A lost colony on a distant planet.  An outpost of humanity, haunted by memories of madness and conspiracy.  A station crew no longer responding to communications.  Concerned about the safety of their investment, Human Resources Specialist, Elizabeth Woolgather is dispatched by the ‘Corporation...',
   },
   {
     id: 'panzer-elite-action-fields-of-glory',
@@ -7341,7 +7341,7 @@ export const PS2_GAMES = [
     cover: 'https://media.rawg.io/media/games/cad/cadbaab544124310a6666d7bfb0bac7d.jpg',
     players: ['1 jugador'],
     genre: 'Variado',
-    description: 'The insidious activities of the Umbrella Corporation continue.   Take on the role of anti-Umbrella team agent, Bruce MacGavin in this all-new Resident Evil first-person action-shooter. Lost in the Atlantic, trapped on a sea-jacked cruise ship, it’s up to you to regain control of the ship. Seamle...',
+    description: 'The insidious activities of the Umbrella Corporation continue.   Take on the role of anti-Umbrella team agent, Bruce MacGavin in this all-new Resident Evil first-person action-shooter. Lost in the Atlantic, trapped on a sea-jacked cruise ship, it’s up to you to regain control of the ship. Seamle...',
   },
   {
     id: 'resident-evil-4',
@@ -7368,7 +7368,7 @@ export const PS2_GAMES = [
     cover: 'https://media.rawg.io/media/games/cad/cadbaab544124310a6666d7bfb0bac7d.jpg',
     players: ['1 jugador'],
     genre: 'Variado',
-    description: 'The insidious activities of the Umbrella Corporation continue.   Take on the role of anti-Umbrella team agent, Bruce MacGavin in this all-new Resident Evil first-person action-shooter. Lost in the Atlantic, trapped on a sea-jacked cruise ship, it’s up to you to regain control of the ship. Seamle...',
+    description: 'The insidious activities of the Umbrella Corporation continue.   Take on the role of anti-Umbrella team agent, Bruce MacGavin in this all-new Resident Evil first-person action-shooter. Lost in the Atlantic, trapped on a sea-jacked cruise ship, it’s up to you to regain control of the ship. Seamle...',
   },
   {
     id: 'resident-evil-outbreak',
@@ -7800,7 +7800,7 @@ export const PS2_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/893/89369d6cd42fbf0d4ecdf90703fd4b07.jpg',
     players: ['1 jugador'],
     genre: 'Variado',
-    description: 'This is Ren Py\'s "The Question" ported to Sega Genesis through the "choice4genesis" engine',
+    description: 'This is Ren Py\'s "The Question" ported to Sega Genesis through the "choice4genesis" engine.    Github repo: https://github.com/haroldo-ok/the-question-c4j',
   },
   {
     id: 'sega-rally-2006',
@@ -8556,7 +8556,7 @@ export const PS2_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/85d/85d3b4278df378ac8815225f3d877214.jpg',
     players: ['1 jugador'],
     genre: 'Simulation, Indie',
-    description: 'FREE TO PLAY VISUAL NOVEL - 2017 Synopsis Even though their personalities vastly differ, Jasmine and TJ share the same sentiment: their brother is insufferable.  So when a cryptic ad pops up on their computer screens guaranteeing to switch their siblings with other people, Jasmine and TJ pr...',
+    description: 'FREE TO PLAY VISUAL NOVEL - 2017  Synopsis  Even though their personalities vastly differ, Jasmine and TJ share the same sentiment: their brother is insufferable.   So when a cryptic ad pops up on their computer screens guaranteeing to switch their siblings with other people, Jasmine and TJ pr...',
   },
   {
     id: 'stolen',
@@ -8664,7 +8664,7 @@ export const PS2_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/76b/76b69464799f8a597ca81cad0dffa23e.jpg',
     players: ['1 jugador', '2 jugadores', '4 jugadores'],
     genre: 'Action, Adventure',
-    description: 'Join Aiai and his friends in an adventure across five worlds with 60 quests. Six frantic party games! Race, fight, target, bounce, tag and cannon 10 monkey ball powers - wood fire sticky, and more 50 puzzle stages will have you racing to beat your best time. Five unique worlds with ...',
+    description: 'Join Aiai and his friends in an adventure across five worlds with 60 quests.  •	Six frantic party games! Race, fight, target, bounce, tag and cannon •	10 monkey ball powers - wood fire sticky, and more •	50 puzzle stages will have you racing to beat your best time. •	Five unique worlds with ...',
   },
   {
     id: 'super-puzzle-bubble-2',
@@ -10050,7 +10050,7 @@ export const PS2_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/40e/40e6f635e0b70afd0aecc77e67e935d7.jpg',
     players: ['1 jugador', '2 jugadores', '4 jugadores'],
     genre: 'Action, Simulation, Racing, Arcade',
-    description: 'Italy, Egypt and Hawaii already make your heart beat faster? Then what do over 100 challenging race tracks and more than 40 cars from 16 manufacturers sound like? Sounds like fun, we agree. And fun is also what World Racing 2 is all about. With five game modes to choose from, from arcade to sim...',
+    description: 'Italy, Egypt and Hawaii already make your heart beat faster? Then what do over 100 challenging race tracks and more than 40 cars from 16 manufacturers sound like? Sounds like fun, we agree.  And fun is also what World Racing 2 is all about. With five game modes to choose from, from arcade to sim...',
   },
   {
     id: 'world-super-police',

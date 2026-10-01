@@ -7,38 +7,37 @@
 export const SITE = {
   name: 'Berti Games',
   logo: 'BG',
-  claim: 'Alquiler y venta de consolas y juegos',
+  claim: 'Venta de juegos y liberacion de consolas',
   shortDescription:
-    'Catalogo de juegos disponibles para PS2, PS3, Xbox 360, PS4 y PS5. Veni, probalo y llevatelo.',
+    'Catalogo de juegos disponibles para PS2, PS3, Xbox 360, PS4 y PS5. Ven y llevatelo.',
 
   contact: {
     // Numero de celular (whatsapp). Formato internacional sin espacios ni signos.
-    mobile: '+54 9 11 5555 1234',
-    mobileRaw: '5491155551234',
+    mobile: '+53 55924968',
+    mobileRaw: '5355924968',
     mobileLabel: 'Movil / WhatsApp',
 
     // Numero de telefono fijo de la casa.
-    landline: '+54 11 5555 9876',
+    landline: '78664865',
     landlineLabel: 'Telefono fijo',
 
-    email: 'contacto@bertigames.com',
+    email: 'bertigames@gmail.com',
     instagram: 'https://instagram.com/bertigames',
     instagramHandle: '@bertigames',
   },
 
   address: {
-    street: 'Av. Ejemplo 1234',
-    floor: 'Local 5',
-    city: 'Ciudad Autonoma de Buenos Aires',
-    province: 'Buenos Aires',
-    zip: 'C1413',
-    country: 'Argentina',
-    mapsUrl: 'https://maps.google.com/?q=Av.+Ejemplo+1234',
+    street: 'Campanario #60 e/ San Lázaro y Lagunas',
+    floor: 'Bajos',
+    city: 'Centro Habana',
+    province: 'La Habana',
+    zip: '10200',
+    country: 'Cuba',
+    mapsUrl: 'https://maps.app.goo.gl/8NrPCpitSsfHM7UB9',
   },
 
   hours: [
-    { days: 'Lunes a Viernes', time: '10:00 - 20:00' },
-    { days: 'Sabados', time: '10:00 - 18:00' },
+    { days: 'Lunes a Sabado', time: '10:00 am - 6:00 pm' },
     { days: 'Domingos', time: 'Cerrado' },
   ],
 }

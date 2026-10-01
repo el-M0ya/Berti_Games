@@ -10,25 +10,23 @@ export const PIRACY_VISIBLE = true
 
 export const PIRACY = {
   intro:
-    'Modificamos consolas para poder jugar tus copias de seguridad. Trabajo prolijo, con garantia y sin perderte los juegos digitales ni los saves originales.',
+    'Liberamos consolas para poder jugar tus juegos favoritos. Trabajo prolijo, con garantia y sin perderte los juegos digitales que tanto buscas.',
 
   disclaimer:
-    'Servicio tecnico de modificacion de consolas. Los precios de los servicios se confirman por WhatsApp segun el modelo exacto de la consola.',
+    'Servicio tecnico de liberación de consolas. Los precios de los servicios se confirman por WhatsApp segun el modelo exacto de la consola.',
 
   /** Grupos de servicios: cada uno tiene sus versiones/precios. */
   services: [
     {
-      id: 'modchips',
-      title: 'Modchip / JTAG',
-      console: 'PS2 · PS3',
+      id: 'Pirateo_PS2',
+      title: 'Pirateo PS2',
+      console: 'PS2',
       icon: 'chip',
       description:
-        'Instalacion de modchip para jugar backups en disco duro o memoria. Incluye instalacion y configuracion inicial.',
+        'Liberacion de consolas PS2 mediante la Memory Card',
       versions: [
-        { name: 'PS2 Slim', price: 'Consultar', notes: 'Incluye mano y switch de alimentacion.' },
-        { name: 'PS2 Fat', price: 'Consultar', notes: 'Version original 4GB/8GB.' },
-        { name: 'PS3 Fat (allslim)', price: 'Consultar', notes: 'Copia de NAND incluida.' },
-        { name: 'PS3 Slim', price: 'Consultar', notes: 'Solo para modelos NOR flash.' },
+        { name: 'PS2 Slim', price: 'Consultar', notes: '' },
+        { name: 'PS2 Fat', price: 'Consultar', notes: '' },
       ],
     },
     {
@@ -56,20 +54,6 @@ export const PIRACY = {
         { name: 'Xbox 360 Slim', price: 'Consultar', notes: 'Incluye ventilacion y limpieza.' },
         { name: 'PS4 Slim / Pro', price: 'Consultar', notes: 'Mod de firmware seguro.' },
         { name: 'PS5 Digital', price: 'Consultar', notes: 'Solo modelos con disco.' },
-      ],
-    },
-    {
-      id: 'services',
-      title: 'Servicio Tecnico',
-      console: 'Todas las consolas',
-      icon: 'wrench',
-      description:
-        'Limpieza profunda, cambio de fuente, reparacion de lectora, cambio de pasta termica y recambio de bateria interna.',
-      versions: [
-        { name: 'Limpieza completa', price: 'Consultar', notes: 'Desarmado, aspirado y repaste.' },
-        { name: 'Cambio de fuente', price: 'Consultar', notes: 'Incluye fuente nueva.' },
-        { name: 'Cambio de lectora', price: 'Consultar', notes: 'Modelo compatible disponible.' },
-        { name: 'Cambio de bateria', price: 'Consultar', notes: 'PS3, PS4 y PS5.' },
       ],
     },
   ],

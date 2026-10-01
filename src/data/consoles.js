@@ -11,7 +11,17 @@ export const CONSOLES = [
     year: 2000,
     accent: '#2f6fe4',
     accentSoft: 'rgba(47, 111, 228, 0.18)',
-    tagline: 'La era dorada de los classics de action y aventura.',
+    tagline: 'La consola mas vendida de la Historia.',
+  },
+  {
+    slug: 'psp',
+    name: 'PlayStation Portable',
+    short: 'PSP',
+    brand: 'Sony',
+    year: 2004,
+    accent: '#00c2a8',
+    accentSoft: 'rgba(0, 194, 168, 0.18)',
+    tagline: 'La consola portatil de Sony, con UMD y pantalla de 16:9.',
   },
   {
     slug: 'ps3',
@@ -21,7 +31,7 @@ export const CONSOLES = [
     year: 2006,
     accent: '#4a9eff',
     accentSoft: 'rgba(74, 158, 255, 0.18)',
-    tagline: 'GTA, Final Fantasy y los grandes exclusivos de la era HD.',
+    tagline: 'Larga Vida al Gameplay',
   },
   {
     slug: 'xbox360',
@@ -31,7 +41,7 @@ export const CONSOLES = [
     year: 2005,
     accent: '#7dc82f',
     accentSoft: 'rgba(125, 200, 47, 0.18)',
-    tagline: 'Live Arcade, Halo y el catalogo mas amplo de su generacion.',
+    tagline: 'La reina del Multijugador',
   },
   {
     slug: 'ps4',
@@ -41,7 +51,7 @@ export const CONSOLES = [
     year: 2013,
     accent: '#1f6feb',
     accentSoft: 'rgba(31, 111, 235, 0.18)',
-    tagline: 'Grafica de nueva generacion y juego cooperativo local.',
+    tagline: 'La grandeza aguarda. This is for the players',
   },
   {
     slug: 'ps5',
@@ -51,7 +61,7 @@ export const CONSOLES = [
     year: 2020,
     accent: '#e8f1ff',
     accentSoft: 'rgba(232, 241, 255, 0.14)',
-    tagline: 'Ray tracing, SSD y carga instantanea.',
+    tagline: 'Play has no limits',
   },
 ]
 

@@ -924,7 +924,7 @@ export const XBOX360_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/6db/6db1a9d775b84a08207cfed0262d506e.jpg',
     players: ['1 jugador', '2 jugadores', '4 jugadores'],
     genre: 'Action, Adventure, RPG, Strategy, Simulation, Casual, Indie',
-    description: 'The game is a MOD game, a MOD, a play, in a game you can experience different games, such as RPG, shooting, action, racing, and so on For the time being, only the main scene, game mod: Guardian goddess (single machine), night struggle (multiplayer melee). The following is an introduction to the...',
+    description: 'The game is a MOD game, a MOD, a play, in a game you can experience different games, such as RPG, shooting, action, racing, and so on For the time being, only the main scene, game mod: Guardian goddess (single machine), night struggle (multiplayer melee). The following is an introduction to the...',
   },
   {
     id: 'brink',
@@ -2733,7 +2733,7 @@ export const XBOX360_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/927/927442bb3c48b71cac5b4c8f5b4ae6eb.jpg',
     players: ['1 jugador'],
     genre: 'Adventure, Indie',
-    description: 'Fermin Games, a new spanish company of videogames, now presents its opera prima: "Symploke: Legend of Gustavo Bueno", a classic point-and-click adventure game which is also divided into several chapters. Put in the mixer "The secret of Monkey Island" and the daily life of a mad Spanish Universi...',
+    description: 'Fermin Games, a new spanish company of videogames, now presents its opera prima: "Symploke: Legend of Gustavo Bueno", a classic point-and-click adventure game which is also divided into several chapters.  Put in the mixer "The secret of Monkey Island" and the daily life of a mad Spanish Universi...',
   },
   {
     id: 'game-of-thrones',
@@ -3462,7 +3462,7 @@ export const XBOX360_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/16f/16fd9b2af90a8bcec078ec75eabcdd3b.jpg',
     players: ['1 jugador'],
     genre: 'Arcade, Family',
-    description: 'The world\'s #1 dance game brand is back and now available for the PlayStation®Move!  Just Dance® 3 kick-starts the party with over 45 tracks from multiple genres and popular artists including today’s hottest hits like “Party Rock Anthem” by LMFAO, “California Gurls” by Katy Perry featuring Sno...',
+    description: 'The world\'s #1 dance game brand is back and now available for the PlayStation®Move!   Just Dance® 3 kick-starts the party with over 45 tracks from multiple genres and popular artists including today’s hottest hits like “Party Rock Anthem” by LMFAO, “California Gurls” by Katy Perry featuring Sno...',
   },
   {
     id: 'just-dance-4-solo-kinect',
@@ -3696,7 +3696,7 @@ export const XBOX360_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/dc7/dc7c4d87add45a378db907c5516c7891.jpg',
     players: ['1 jugador'],
     genre: 'Action, Adventure, Platformer',
-    description: 'Three long years have passed since Spyro and Cynder were trapped in the crystal, since then Malefor has unleashed his evil onto the world. In this third chapter of the epic Legend of Spyro® trilogy, Spyro must fulfill his destiny and face the Dark Master. As evil spreads o...',
+    description: 'Three long years have passed since Spyro and Cynder were trapped in the        crystal, since then Malefor has unleashed his evil onto the world. In        this third chapter of the epic Legend of Spyro® trilogy, Spyro must        fulfill his destiny and face the Dark Master. As evil spreads o...',
   },
   {
     id: 'legendary',
@@ -3714,7 +3714,7 @@ export const XBOX360_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/a99/a99c3a87dc214a869bcee6e4d3df5737.jpg',
     players: ['1 jugador'],
     genre: 'Strategy',
-    description: 'Assume the role of General Patton and command the U.S. Third Army, from the beaches of France to the city of Berlin, along a complete Campaign composed of 7 Operations and 35 different Missions of varied and exciting objectives to fight the Nazi forces. Manage your Army, recruiting troops that...',
+    description: 'Assume the role of General Patton and command the U.S. Third Army, from the beaches of France to the city of Berlin, along a complete Campaign composed of 7 Operations and 35 different Missions of varied and exciting objectives to fight the Nazi forces.  Manage your Army, recruiting troops that...',
   },
   {
     id: 'lego-batman',
@@ -3921,7 +3921,7 @@ export const XBOX360_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/0ac/0ac25cf14447cada6b4608a1b8bb547b.jpg',
     players: ['1 jugador'],
     genre: 'Adventure',
-    description: 'Collect the mysterious Memory Fragments to unravel the truth! XBlaze Lost: Memories is a visual-novel game based in the BlazBlue universe and the sequel to XBlaze Code: Embryo! Play as the enigmatic pink-haired protagonist as she navigates through a weird and wondrous alternate reality with the...',
+    description: 'Collect the mysterious Memory Fragments to unravel the truth!  XBlaze Lost: Memories is a visual-novel game based in the BlazBlue universe and the sequel to XBlaze Code: Embryo! Play as the enigmatic pink-haired protagonist as she navigates through a weird and wondrous alternate reality with the...',
   },
   {
     id: 'lost-oddysey-dvd2',
@@ -3930,7 +3930,7 @@ export const XBOX360_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/0ac/0ac25cf14447cada6b4608a1b8bb547b.jpg',
     players: ['1 jugador'],
     genre: 'Adventure',
-    description: 'Collect the mysterious Memory Fragments to unravel the truth! XBlaze Lost: Memories is a visual-novel game based in the BlazBlue universe and the sequel to XBlaze Code: Embryo! Play as the enigmatic pink-haired protagonist as she navigates through a weird and wondrous alternate reality with the...',
+    description: 'Collect the mysterious Memory Fragments to unravel the truth!  XBlaze Lost: Memories is a visual-novel game based in the BlazBlue universe and the sequel to XBlaze Code: Embryo! Play as the enigmatic pink-haired protagonist as she navigates through a weird and wondrous alternate reality with the...',
   },
   {
     id: 'lost-oddysey-dvd3',
@@ -3939,7 +3939,7 @@ export const XBOX360_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/0ac/0ac25cf14447cada6b4608a1b8bb547b.jpg',
     players: ['1 jugador'],
     genre: 'Adventure',
-    description: 'Collect the mysterious Memory Fragments to unravel the truth! XBlaze Lost: Memories is a visual-novel game based in the BlazBlue universe and the sequel to XBlaze Code: Embryo! Play as the enigmatic pink-haired protagonist as she navigates through a weird and wondrous alternate reality with the...',
+    description: 'Collect the mysterious Memory Fragments to unravel the truth!  XBlaze Lost: Memories is a visual-novel game based in the BlazBlue universe and the sequel to XBlaze Code: Embryo! Play as the enigmatic pink-haired protagonist as she navigates through a weird and wondrous alternate reality with the...',
   },
   {
     id: 'lost-oddysey-dvd4',
@@ -3948,7 +3948,7 @@ export const XBOX360_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/0ac/0ac25cf14447cada6b4608a1b8bb547b.jpg',
     players: ['1 jugador'],
     genre: 'Adventure',
-    description: 'Collect the mysterious Memory Fragments to unravel the truth! XBlaze Lost: Memories is a visual-novel game based in the BlazBlue universe and the sequel to XBlaze Code: Embryo! Play as the enigmatic pink-haired protagonist as she navigates through a weird and wondrous alternate reality with the...',
+    description: 'Collect the mysterious Memory Fragments to unravel the truth!  XBlaze Lost: Memories is a visual-novel game based in the BlazBlue universe and the sequel to XBlaze Code: Embryo! Play as the enigmatic pink-haired protagonist as she navigates through a weird and wondrous alternate reality with the...',
   },
   {
     id: 'lost-planet-2',
@@ -4398,7 +4398,7 @@ export const XBOX360_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/a43/a434df5ae5f4c5554563fd04ac7a0b45.jpeg',
     players: ['1 jugador', '2 jugadores', '4 jugadores'],
     genre: 'Strategy, Board Games, Casual, Puzzle',
-    description: 'The official adaptation of Potion Explosion, the award-winning puzzle board game. Play this game solo or against players from all over the world with Solo, Online and Local Pass &amp; Play modes!  In Potion Explosion, you will explode ingredients, trigger chain reactions and gather it all in yo...',
+    description: 'The official adaptation of Potion Explosion, the award-winning puzzle board game. Play this game solo or against players from all over the world with Solo, Online and Local Pass &amp; Play modes!  In Potion Explosion, you will explode ingredients, trigger chain reactions and gather it all in yo...',
   },
   {
     id: 'motionsports-kinect',
@@ -4992,7 +4992,7 @@ export const XBOX360_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/b6e/b6e8669dc5a328ba97b2f10ee521e1ea.jpg',
     players: ['1 jugador'],
     genre: 'Action, RPG',
-    description: 'Lead the revolution of the Orcs and Goblins! In a world at war, the vast Empire of Men tries to extend its domination over the territories of the Orcs and Goblins, who are systematically persecuted, enslaved and massacred. Through this great role-playing game, lead a fearsome Orc warrior, and a...',
+    description: 'Lead the revolution of the Orcs and Goblins!  In a world at war, the vast Empire of Men tries to extend its domination over the territories of the Orcs and Goblins, who are systematically persecuted, enslaved and massacred. Through this great role-playing game, lead a fearsome Orc warrior, and a...',
   },
   {
     id: 'omerta-city-of-gangsters',
@@ -5307,7 +5307,7 @@ export const XBOX360_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/881/881db298f531a90722d7fc684011e1d1.jpg',
     players: ['1 jugador'],
     genre: 'Action, Arcade, Family',
-    description: 'Master the style and charm of Puss In Boots in an engaging rhythm-based experience. Play through a new storyline that continues the adventure from the film and engage in dynamic swordfights, flamenco style dance battles, dozens of mini-games, and a wide variety of rhythm-b...',
+    description: 'Master the style and charm of Puss In Boots in an engaging rhythm-based        experience. Play through a new storyline that continues the adventure        from the film and engage in dynamic swordfights, flamenco style dance        battles, dozens of mini-games, and a wide variety of rhythm-b...',
   },
   {
     id: 'quake-4-problemas',
@@ -6198,7 +6198,7 @@ export const XBOX360_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/50d/50d4fb165e2e11e873b160b275417e47.jpg',
     players: ['1 jugador'],
     genre: 'Puzzle',
-    description: 'Split Second Make Every Second CountExplore and delve deep into a forgotten factory where lost technology is yet to be discovered. Dodge and maneuver your through the factory\'s machines as you go deeper and deeper. Features Control your square and venture through the forgotten factory in this...',
+    description: 'Split Second  Make Every Second Count Explore and delve deep into a forgotten factory where lost technology is yet to be discovered. Dodge and maneuver your through the factory\'s machines as you go deeper and deeper. Features Control your square and venture through the forgotten factory in this...',
   },
   {
     id: 'sponge-bob-surf-skate',
@@ -6747,7 +6747,7 @@ export const XBOX360_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/868/868d6ff6b105eb98a33ec7523a79ff02.jpg',
     players: ['1 jugador'],
     genre: 'Adventure',
-    description: 'Install instructions1. EXTRACT THE FOLDERS 2. GET INSIDE THE RIGHT FOLDER 3. DOUBLE CLICK ON "Thor" game GAME ISTRUCTION: RIGHT ARROW - MOVE RIGHT LEFT ARROW - MOVE LEFT DOWN ARROW - STOP MOVING',
+    description: 'Install instructions 1. EXTRACT THE FOLDERS 2. GET INSIDE THE RIGHT FOLDER 3. DOUBLE CLICK ON "Thor" game GAME ISTRUCTION: RIGHT ARROW - MOVE RIGHT LEFT ARROW - MOVE LEFT DOWN ARROW - STOP MOVING',
   },
   {
     id: 'thriville-off-the-rails',
@@ -6891,7 +6891,7 @@ export const XBOX360_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/647/6475e0d23febb7d932037f1c10671969.jpg',
     players: ['1 jugador', '2 jugadores', '4 jugadores'],
     genre: 'Racing, Family',
-    description: 'Fire up the fun as Codemasters reboots the classic table top racing experience in Toybox Turbos – now updated to support the Oculus Rift Development Kit 2 (DK2) virtual reality headset for incredible immersion!  Collect and customize 35 vehicles in this pick-up-and-play arcade racer. Take on 18 ...',
+    description: 'Fire up the fun as Codemasters reboots the classic table top racing experience in Toybox Turbos – now updated to support the Oculus Rift Development Kit 2 (DK2) virtual reality headset for incredible immersion!  Collect and customize 35 vehicles in this pick-up-and-play arcade racer. Take on 18 ...',
   },
   {
     id: 'transformers',
@@ -8025,7 +8025,7 @@ export const XBOX360_GAMES = [
     cover: 'https://media.rawg.io/media/games/4c3/4c32652d765a29d2a82178ee8a5fc714.jpg',
     players: ['1 jugador'],
     genre: 'Variado',
-    description: 'Set in a fantastic world based upon the mythology of Native America, Brave: A Warrior\'s Tale plays as a series of flashbacks in which a now elderly Brave describes the events of his life. Players take on the role of Courage and experience Brave\'s legendary adventures first...',
+    description: 'Set in a fantastic world based upon the mythology of Native America,        Brave: A Warrior\'s Tale plays as a series of flashbacks in which a now        elderly Brave describes the events of his life. Players take on the role        of Courage and experience Brave\'s legendary adventures first...',
   },
   {
     id: 'brothers-in-arms-hh',
@@ -8358,7 +8358,7 @@ export const XBOX360_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/e06/e06f32e91306ace72e3280d994f05d2f.jpg',
     players: ['1 jugador'],
     genre: 'Action',
-    description: 'This is a homebrought game, run on Gameboy Color. Original version: Don Rigby - Illusion Software Ltd., Commodore 16/Plus4, 1986. Created with GB-Studio 2.0.0 beta5! Also available for download in .CIA format for the Nintendo 3DS virtual console!O.K. so Lionel could not tell the difference...',
+    description: 'This is a homebrought game, run on Gameboy Color. Original version: Don Rigby - Illusion Software Ltd., Commodore 16/Plus4, 1986. Created with GB-Studio 2.0.0 beta5!  Also available for download in .CIA format for the Nintendo 3DS virtual console!    O.K. so Lionel could not tell the difference...',
   },
   {
     id: 'crash-time',
@@ -8979,7 +8979,7 @@ export const XBOX360_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/32d/32def4e55e47026d18b5f525991b5fe3.jpg',
     players: ['1 jugador'],
     genre: 'Adventure, Indie',
-    description: 'A lost colony on a distant planet. An outpost of humanity, haunted by memories of madness and conspiracy. A station crew no longer responding to communications. Concerned about the safety of their investment, Human Resources Specialist, Elizabeth Woolgather is dispatched by the ‘Corporation...',
+    description: 'A lost colony on a distant planet.  An outpost of humanity, haunted by memories of madness and conspiracy.  A station crew no longer responding to communications.  Concerned about the safety of their investment, Human Resources Specialist, Elizabeth Woolgather is dispatched by the ‘Corporation...',
   },
   {
     id: 'emulador-nintendo-64',
@@ -9924,7 +9924,7 @@ export const XBOX360_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/16f/16fd9b2af90a8bcec078ec75eabcdd3b.jpg',
     players: ['1 jugador'],
     genre: 'Arcade, Family',
-    description: 'The world\'s #1 dance game brand is back and now available for the PlayStation®Move! Just Dance® 3 kick-starts the party with over 45 tracks from multiple genres and popular artists including today’s hottest hits like “Party Rock Anthem” by LMFAO, “California Gurls” by Katy Perry featuring Sno...',
+    description: 'The world\'s #1 dance game brand is back and now available for the PlayStation®Move!   Just Dance® 3 kick-starts the party with over 45 tracks from multiple genres and popular artists including today’s hottest hits like “Party Rock Anthem” by LMFAO, “California Gurls” by Katy Perry featuring Sno...',
   },
   {
     id: 'just-dance-kids-2',
@@ -10068,7 +10068,7 @@ export const XBOX360_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/927/927442bb3c48b71cac5b4c8f5b4ae6eb.jpg',
     players: ['1 jugador'],
     genre: 'Adventure, Indie',
-    description: 'Fermin Games, a new spanish company of videogames, now presents its opera prima: "Symploke: Legend of Gustavo Bueno", a classic point-and-click adventure game which is also divided into several chapters. Put in the mixer "The secret of Monkey Island" and the daily life of a mad Spanish Universi...',
+    description: 'Fermin Games, a new spanish company of videogames, now presents its opera prima: "Symploke: Legend of Gustavo Bueno", a classic point-and-click adventure game which is also divided into several chapters.  Put in the mixer "The secret of Monkey Island" and the daily life of a mad Spanish Universi...',
   },
   {
     id: 'las-aventuras-de-tintin',
@@ -10077,7 +10077,7 @@ export const XBOX360_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/98b/98ba4f6fc552a25e0dd0f25a949d2a40.jpg',
     players: ['1 jugador'],
     genre: 'RPG',
-    description: 'Hola a todos, acá esta el juego completo "Ralph: las aventuras de {$playerName}". Esta es la versión 1.0.1.Desde el navegador tarda mas en cargar, si quieren la versión para descargar, (va a correr mas rápido) vayan a https://ralph-las-aventuras-de-playername.blogspot.com/2022/12/ralph-las-aven...',
+    description: 'Hola a todos, acá esta el juego completo "Ralph: las aventuras de {$playerName}". Esta es la versión 1.0.1. Desde el navegador tarda mas en cargar, si quieren la versión para descargar, (va a correr mas rápido) vayan a https://ralph-las-aventuras-de-playername.blogspot.com/2022/12/ralph-las-aven...',
   },
   {
     id: 'leela',
@@ -10104,7 +10104,7 @@ export const XBOX360_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/dc7/dc7c4d87add45a378db907c5516c7891.jpg',
     players: ['1 jugador'],
     genre: 'Action, Adventure, Platformer',
-    description: 'Three long years have passed since Spyro and Cynder were trapped in the crystal, since then Malefor has unleashed his evil onto the world. In this third chapter of the epic Legend of Spyro® trilogy, Spyro must fulfill his destiny and face the Dark Master. As evil spreads o...',
+    description: 'Three long years have passed since Spyro and Cynder were trapped in the        crystal, since then Malefor has unleashed his evil onto the world. In        this third chapter of the epic Legend of Spyro® trilogy, Spyro must        fulfill his destiny and face the Dark Master. As evil spreads o...',
   },
   {
     id: 'lego-star-wars-the-force-awakens',
@@ -10596,7 +10596,7 @@ export const XBOX360_GAMES = [
     id: 'mirror-s-edges',
     title: 'Mirror\'s Edges',
     year: null,
-    cover: 'https://via.placeholder.com/264x376?text=Mirror\'s%20Edges',
+    cover: 'https://via.placeholder.com/264x376?text=Mirror's%20Edges',
     players: ['1 jugador'],
     genre: 'Variado',
     description: '',
@@ -10707,7 +10707,7 @@ export const XBOX360_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/098/0980ef4a7af2c3cc368ae9bfad3fc112.jpg',
     players: ['1 jugador', '2 jugadores', '4 jugadores'],
     genre: 'Simulation, Sports, Racing',
-    description: 'Become the star of the 2018 MotoGP™ season! Pursue your career as a professional rider starting from the Red Bull MotoGP™ Rookies Cup up to the Premier class of the MotoGP™.Race with all the riders of the MotoGP™ on 19 official tracks, including the new Buriram International Circuit in Thailand...',
+    description: 'Become the star of the 2018 MotoGP™ season! Pursue your career as a professional rider starting from the Red Bull MotoGP™ Rookies Cup up to the Premier class of the MotoGP™. Race with all the riders of the MotoGP™ on 19 official tracks, including the new Buriram International Circuit in Thailand...',
   },
   {
     id: 'motogp-tm-10-11',
@@ -10716,7 +10716,7 @@ export const XBOX360_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/098/0980ef4a7af2c3cc368ae9bfad3fc112.jpg',
     players: ['1 jugador', '2 jugadores', '4 jugadores'],
     genre: 'Simulation, Sports, Racing',
-    description: 'Become the star of the 2018 MotoGP™ season! Pursue your career as a professional rider starting from the Red Bull MotoGP™ Rookies Cup up to the Premier class of the MotoGP™.Race with all the riders of the MotoGP™ on 19 official tracks, including the new Buriram International Circuit in Thailand...',
+    description: 'Become the star of the 2018 MotoGP™ season! Pursue your career as a professional rider starting from the Red Bull MotoGP™ Rookies Cup up to the Premier class of the MotoGP™. Race with all the riders of the MotoGP™ on 19 official tracks, including the new Buriram International Circuit in Thailand...',
   },
   {
     id: 'motogp-tm-14',
@@ -11085,7 +11085,7 @@ export const XBOX360_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/b6e/b6e8669dc5a328ba97b2f10ee521e1ea.jpg',
     players: ['1 jugador'],
     genre: 'Action, RPG',
-    description: 'Lead the revolution of the Orcs and Goblins! In a world at war, the vast Empire of Men tries to extend its domination over the territories of the Orcs and Goblins, who are systematically persecuted, enslaved and massacred. Through this great role-playing game, lead a fearsome Orc warrior, and a...',
+    description: 'Lead the revolution of the Orcs and Goblins!  In a world at war, the vast Empire of Men tries to extend its domination over the territories of the Orcs and Goblins, who are systematically persecuted, enslaved and massacred. Through this great role-playing game, lead a fearsome Orc warrior, and a...',
   },
   {
     id: 'of-red-river',
@@ -11310,7 +11310,7 @@ export const XBOX360_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/881/881db298f531a90722d7fc684011e1d1.jpg',
     players: ['1 jugador'],
     genre: 'Action, Arcade, Family',
-    description: 'Master the style and charm of Puss In Boots in an engaging rhythm-based experience. Play through a new storyline that continues the adventure from the film and engage in dynamic swordfights, flamenco style dance battles, dozens of mini-games, and a wide variety of rhythm-b...',
+    description: 'Master the style and charm of Puss In Boots in an engaging rhythm-based        experience. Play through a new storyline that continues the adventure        from the film and engage in dynamic swordfights, flamenco style dance        battles, dozens of mini-games, and a wide variety of rhythm-b...',
   },
   {
     id: 'quake-4',
@@ -11544,7 +11544,7 @@ export const XBOX360_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/a35/a35f0e5cf363f9ff3dfdd744fa676cf8.jpg',
     players: ['1 jugador'],
     genre: 'Variado',
-    description: 'Recommended to adjust your sensitivity before playing.  If you face trouble adjusting slider: Press and hold ESC while adjusting the slider  PAC-RIO   3D Pacman mashup with Mario game elements!Collect all the pallets to win!Player Controls:  Move: W  Jump: SPACE Pickup Item: E Use Item: ...',
+    description: 'Recommended to adjust your sensitivity before playing.  If you face trouble adjusting slider: Press and hold ESC while adjusting the slider  PAC-RIO   3D Pacman mashup with Mario game elements!  Collect all the pallets to win!  Player Controls:  Move: W  Jump: SPACE Pickup Item: E   Use Item: ...',
   },
   {
     id: 'rise-of-tomb-raider',
@@ -11580,7 +11580,7 @@ export const XBOX360_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/1e7/1e7da0813393095dbcd38f5b45215a59.jpg',
     players: ['1 jugador', '2 jugadores', '4 jugadores'],
     genre: 'Sports',
-    description: 'All New Be A Pro mode - play rugby from a professional rugby players point of view, customise and control your player though their career. Gain an all new insight and experience from controlling the game from a single player’s perspective. All New Online Player Creator – create, share and downl...',
+    description: 'All New Be A Pro mode - play rugby from a professional rugby players point of view, customise and control your player though their career. Gain an all new insight and experience from controlling the game from a single player’s perspective.  All New Online Player Creator – create, share and downl...',
   },
   {
     id: 'sacred-2-fallen-angel',
@@ -12885,7 +12885,7 @@ export const XBOX360_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/353/353f81d4b19a171194a19b1872d24c8d.jpg',
     players: ['1 jugador'],
     genre: 'Simulation',
-    description: 'Want a brand new way to eXPerience Vaporwave95? Well now you can! Its in widescreen, has new backgrounds, and has several quality of life improvements, so what are you waiting for? Come on and download it! Vaporwave95 Remastered: Celebrating A Year Of V95 __________________________________Vapo...',
+    description: 'Want a brand new way to eXPerience Vaporwave95? Well now you can! Its in widescreen, has new backgrounds, and has several quality of life improvements, so what are you waiting for? Come on and download it! Vaporwave95 Remastered: Celebrating A Year Of V95 __________________________________  Vapo...',
   },
   {
     id: 'abyss-odyssey-xbla',
@@ -13299,7 +13299,7 @@ export const XBOX360_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/988/9889823c5f30581fef0bc90c9d017af5.jpg',
     players: ['1 jugador'],
     genre: 'Variado',
-    description: 'Includes both:MONOPOLY PLUS Play the classic game and watch the board come to life! A full 3D city at the center of the board lives and evolves as you play. You own a miniature world that will interact with your progression throughout the game and celebrate your achievements. Play the way you wa...',
+    description: 'Includes both:MONOPOLY PLUS Play the classic game and watch the board come to life! A full 3D city at the center of the board lives and evolves as you play. You own a miniature world that will interact with your progression throughout the game and celebrate your achievements. Play the way you wa...',
   },
   {
     id: 'nba-unrivaled-xbla',
@@ -13539,7 +13539,7 @@ export const XBOX360_GAMES = [
     id: 'yu-gi-oh-5d-s-decade-duels',
     title: 'Yu-Gi-Oh! 5D\'s Decade Duels',
     year: 2010,
-    cover: 'https://via.placeholder.com/264x376?text=Yu-Gi-Oh!%205D\'s%20Decad',
+    cover: 'https://via.placeholder.com/264x376?text=Yu-Gi-Oh!%205D's%20Decad',
     players: ['1 jugador'],
     genre: 'Variado',
     description: 'Yu-Gi-Oh! 5D\'s Decade Duels is a game developed by Konami Digital Entertainment. It came out on 03-11-2010. Konami published the game. You can play Yu-Gi-Oh! 5D\'s Decade Duels on Xbox 360.',

@@ -1077,7 +1077,7 @@ export const PS3_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/f52/f52b46487e093a97a082c6e5d1612003.jpg',
     players: ['1 jugador'],
     genre: 'Racing',
-    description: 'Take control of a 4-WD racing truck in Off-Road Super Racing. This challenging racing game offers a championship mode where you can reach for the gold medal and a free single race mode. This 3D-racing game is powered by a realistic physics engine to make it challenging for experts and easy enou...',
+    description: 'Take control of a 4-WD racing truck in Off-Road Super Racing. This challenging racing game offers a championship mode where you can reach for the gold medal and a free single race mode.  This 3D-racing game is powered by a realistic physics engine to make it challenging for experts and easy enou...',
   },
   {
     id: 'pain',
@@ -1815,7 +1815,7 @@ export const PS3_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/bd1/bd1d0f7591492aa7ae15f819bbb0736b.jpg',
     players: ['1 jugador'],
     genre: 'Action, Adventure',
-    description: 'What time is it?  It’s time to crack a case! Adventure Time: Finn and Jake Investigations is an all-new, story-driven graphic adventure game. Strange stuff is happening in the Land of Ooo (stranger than usual anyway). Luckily, Finn and Jake are on the case. This mysterious adventure will put th...',
+    description: 'What time is it?  It’s time to crack a case!  Adventure Time: Finn and Jake Investigations is an all-new, story-driven graphic adventure game. Strange stuff is happening in the Land of Ooo (stranger than usual anyway). Luckily, Finn and Jake are on the case. This mysterious adventure will put th...',
   },
   {
     id: 'adventure-time-the-secret-of-the-nameless-kingdom-hen-ok',
@@ -2013,7 +2013,7 @@ export const PS3_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/8e8/8e86055e0e367dd49bbc2dd35c38f4ba.jpg',
     players: ['1 jugador'],
     genre: 'Casual',
-    description: 'Join Red, Chuck, Bomb and the Blues to save the stolen eggs in Angry Birds VR: Isle of Pigs, an immersive VR adventure!  Explore the remote island where the greedy green pigs take their vacation in 50+ fun-filled levels (and more to come!) Make your way up to party city through exotic beaches, ...',
+    description: 'Join Red, Chuck, Bomb and the Blues to save the stolen eggs in Angry Birds VR: Isle of Pigs, an immersive VR adventure!   Explore the remote island where the greedy green pigs take their vacation in 50+ fun-filled levels (and more to come!) Make your way up to party city through exotic beaches, ...',
   },
   {
     id: 'angry-birds-trilogy',
@@ -2139,7 +2139,7 @@ export const PS3_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/e8e/e8e951932ac4537a4f43e1eb2ad592aa.jpg',
     players: ['1 jugador', '2 jugadores', '4 jugadores'],
     genre: 'Action',
-    description: 'An exciting collaboration between The Heroic Legend of Arslan anime and the action-infused Warriors series! The exhilaration of plowing through large armies has been fused together with the charm and style of the world crafted in the anime.Experience the grand historical fantasy with ARSLAN: TH...',
+    description: 'An exciting collaboration between The Heroic Legend of Arslan anime and the action-infused Warriors series! The exhilaration of plowing through large armies has been fused together with the charm and style of the world crafted in the anime. Experience the grand historical fantasy with ARSLAN: TH...',
   },
   {
     id: 'assasin-cred-revelation',
@@ -4209,7 +4209,7 @@ export const PS3_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/fe2/fe25d963d373aef217af79f6f5e237b3.jpg',
     players: ['1 jugador'],
     genre: 'Arcade',
-    description: 'Want a game you can really sink your teeth into? Swim and swerve through underwater worlds, chow down on smaller fish, and chomp your way to ocean supremacy! But watch out: boatloads of pesky predators are looking to make lunch out of you. When you\'re hungry for a different challenge, take a b...',
+    description: 'Want a game you can really sink your teeth into? Swim and swerve through underwater worlds, chow down on smaller fish, and chomp your way to ocean supremacy! But watch out: boatloads of pesky predators are looking to make lunch out of you.  When you\'re hungry for a different challenge, take a b...',
   },
   {
     id: 'fez-eu-psn',
@@ -5163,7 +5163,7 @@ export const PS3_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/fbe/fbe74c9af14ec0a3beb7b3252aa45d19.jpg',
     players: ['1 jugador', '2 jugadores', '4 jugadores'],
     genre: 'Sports',
-    description: 'Discover the best handball simulation!Become a handball champion playing the first simulation with 120 official teams from the 3 most prestigious leagues: the Ligue Nationale de Handball (France), the Toyota Handball Bundesliga (Germany) and the Liga Asobal (Spain). Experience all the sensati...',
+    description: 'Discover the best handball simulation! Become a handball champion playing the first simulation with 120 official teams from the 3 most prestigious leagues: the Ligue Nationale de Handball (France), the Toyota Handball Bundesliga (Germany) and the Liga Asobal (Spain).  Experience all the sensati...',
   },
   {
     id: 'infamous-2-festival-of-blood',
@@ -5505,7 +5505,7 @@ export const PS3_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/927/927442bb3c48b71cac5b4c8f5b4ae6eb.jpg',
     players: ['1 jugador'],
     genre: 'Adventure, Indie',
-    description: 'Fermin Games, a new spanish company of videogames, now presents its opera prima: "Symploke: Legend of Gustavo Bueno", a classic point-and-click adventure game which is also divided into several chapters. Put in the mixer "The secret of Monkey Island" and the daily life of a mad Spanish Universi...',
+    description: 'Fermin Games, a new spanish company of videogames, now presents its opera prima: "Symploke: Legend of Gustavo Bueno", a classic point-and-click adventure game which is also divided into several chapters.  Put in the mixer "The secret of Monkey Island" and the daily life of a mad Spanish Universi...',
   },
   {
     id: 'lara-croft-and-the-guardian-of-light',
@@ -5523,7 +5523,7 @@ export const PS3_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/98b/98ba4f6fc552a25e0dd0f25a949d2a40.jpg',
     players: ['1 jugador'],
     genre: 'RPG',
-    description: 'Hola a todos, acá esta el juego completo "Ralph: las aventuras de {$playerName}". Esta es la versión 1.0.1. Desde el navegador tarda mas en cargar, si quieren la versión para descargar, (va a correr mas rápido) vayan a https://ralph-las-aventuras-de-playername.blogspot.com/2022/12/ralph-las-aven...',
+    description: 'Hola a todos, acá esta el juego completo "Ralph: las aventuras de {$playerName}". Esta es la versión 1.0.1. Desde el navegador tarda mas en cargar, si quieren la versión para descargar, (va a correr mas rápido) vayan a https://ralph-las-aventuras-de-playername.blogspot.com/2022/12/ralph-las-aven...',
   },
   {
     id: 'last-rebelion',
@@ -6828,7 +6828,7 @@ export const PS3_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/b6e/b6e8669dc5a328ba97b2f10ee521e1ea.jpg',
     players: ['1 jugador'],
     genre: 'Action, RPG',
-    description: 'Lead the revolution of the Orcs and Goblins! In a world at war, the vast Empire of Men tries to extend its domination over the territories of the Orcs and Goblins, who are systematically persecuted, enslaved and massacred. Through this great role-playing game, lead a fearsome Orc warrior, and a...',
+    description: 'Lead the revolution of the Orcs and Goblins!  In a world at war, the vast Empire of Men tries to extend its domination over the territories of the Orcs and Goblins, who are systematically persecuted, enslaved and massacred. Through this great role-playing game, lead a fearsome Orc warrior, and a...',
   },
   {
     id: 'okabu-eu-psn',
@@ -7026,7 +7026,7 @@ export const PS3_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/7f5/7f5d0b1587ea97f2a5ad15c398617cfe.jpg',
     players: ['1 jugador'],
     genre: 'Simulation, Arcade, Casual',
-    description: 'Real pinball machines, created by the world\'s most experienced producer of arcade-quality pinball machines, can now be played on your PC.  Over 10 tables including modern classics like Star Trek™, AC/DC®, and Mustang™ are available as DLC with two FREE tables to play every month! ',
+    description: 'Real pinball machines, created by the world\'s most experienced producer of arcade-quality pinball machines, can now be played on your PC.  Over 10 tables including modern classics like Star Trek™, AC/DC®, and Mustang™ are available as DLC with two FREE tables to play every month!  •         3D A...',
   },
   {
     id: 'pirates-of-the-caribbean-at-world-s-end-iso',
@@ -7215,7 +7215,7 @@ export const PS3_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/881/881db298f531a90722d7fc684011e1d1.jpg',
     players: ['1 jugador'],
     genre: 'Action, Arcade, Family',
-    description: 'Master the style and charm of Puss In Boots in an engaging rhythm-based experience. Play through a new storyline that continues the adventure from the film and engage in dynamic swordfights, flamenco style dance battles, dozens of mini-games, and a wide variety of rhythm-b...',
+    description: 'Master the style and charm of Puss In Boots in an engaging rhythm-based        experience. Play through a new storyline that continues the adventure        from the film and engage in dynamic swordfights, flamenco style dance        battles, dozens of mini-games, and a wide variety of rhythm-b...',
   },
   {
     id: 'puzzlegeddon-us-psn',
@@ -8403,7 +8403,7 @@ export const PS3_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/68d/68d82550b2e0694be7562676ebc45f38.jpg',
     players: ['1 jugador'],
     genre: 'Action, Shooter',
-    description: 'You have six days. Six days to rescue an entire country plunged into chaos by a brutal revolution. Race against time to control a dire situation that threatens to escalate into global war. You are the legendary and fearless Operations Commander as you take command of the battlefield with you...',
+    description: 'You have six days. Six days to rescue an entire country plunged into chaos by a brutal revolution. Race against time to control a dire situation that threatens to escalate into global war.    You are the legendary and fearless Operations Commander as you take command of the battlefield with you...',
   },
   {
     id: 'soldier-of-fortune-paybacck-hen-ok',
@@ -8835,7 +8835,7 @@ export const PS3_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/a22/a22898199b1049569d84e6549dbcf103.jpg',
     players: ['1 jugador'],
     genre: 'Action, Shooter',
-    description: 'Super Stardust™ HD for the PlayStation®3 system is a fully updated version of the classic game Stardust. Your mission is simple: destroy everything in sight! With five highly detailed 3D planets to save, hordes of enemies and asteroids to destroy, and various game play modes, Super Stardust™ HD ...',
+    description: 'Super Stardust™ HD for the PlayStation®3 system is a fully updated version of the classic game Stardust. Your mission is simple: destroy everything in sight! With five highly detailed 3D planets to save, hordes of enemies and asteroids to destroy, and various game play modes, Super Stardust™ HD ...',
   },
   {
     id: 'super-street-fighter-iv-tiene-problemas',
@@ -9519,7 +9519,7 @@ export const PS3_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/a0d/a0d0347d768ef4c9d458591db934374c.jpg',
     players: ['1 jugador'],
     genre: 'Action, Adventure, Indie',
-    description: 'Developed by Iranian based Bearded Bird, ParVaNeh: Legacy of the Light\'s Guardians is an action-adventure game set in the fantasy World of Naria. Fadia, a young and courageous boy sets about protecting ‘Naria, his home village, from the Khazdaks who are trying to pollute their river... As the a...',
+    description: 'Developed by Iranian based Bearded Bird, ParVaNeh: Legacy of the Light\'s Guardians is an action-adventure game set in the fantasy World of Naria.  Fadia, a young and courageous boy sets about protecting ‘Naria, his home village, from the Khazdaks who are trying to pollute their river... As the a...',
   },
   {
     id: 'tom-raider-hen-ok',
@@ -9816,7 +9816,7 @@ export const PS3_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/b00/b000d653977546e7d17783b4b8591ca9.jpg',
     players: ['1 jugador', '2 jugadores', '4 jugadores'],
     genre: 'Action',
-    description: 'Wanted Corp is a top-down action game in which you play as two intergalactic bounty hunters with different powers.  Play solo or with a friend, locally or on-line and team up to survive!  Take on the role of bounty hunters Neal H. Maddogg and Irina Zimoy and arrest the scum of the galaxy!  Use...',
+    description: 'Wanted Corp is a top-down action game in which you play as two intergalactic bounty hunters with different powers.  Play solo or with a friend, locally or on-line and team up to survive!  Take on the role of bounty hunters Neal H. Maddogg and Irina Zimoy and arrest the scum of the galaxy!  Use...',
   },
   {
     id: 'warhammer-40000-space-marine',

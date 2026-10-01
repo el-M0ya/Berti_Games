@@ -3,6 +3,7 @@
  * archivos de cada consola dentro de esta carpeta.
  */
 import { PS2_GAMES } from './ps2.js'
+import { PSP_GAMES } from './psp.js'
 import { PS3_GAMES } from './ps3.js'
 import { XBOX360_GAMES } from './xbox360.js'
 import { PS4_GAMES } from './ps4.js'
@@ -10,6 +11,7 @@ import { PS5_GAMES } from './ps5.js'
 
 export const GAMES_BY_CONSOLE = {
   ps2: PS2_GAMES,
+  psp: PSP_GAMES,
   ps3: PS3_GAMES,
   xbox360: XBOX360_GAMES,
   ps4: PS4_GAMES,

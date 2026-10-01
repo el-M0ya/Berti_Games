@@ -6,8 +6,8 @@ son archivos estaticos que se pueden publicar en GitHub Pages gratis.
 
 ## Que tiene
 
-- **Inicio** con las 5 consolas para elegir, y mas abajo la seccion de
-  contacto (movil, fijo, direccion y horario).
+- **Inicio** con las 6 consolas para elegir (PS2, PSP, PS3, Xbox 360, PS4,
+  PS5), y mas abajo la seccion de contacto (movil, fijo, direccion y horario).
 - **Catalogo por consola** con tarjetas: caratula de fondo y nombre abajo.
 - **Ficha de cada juego**: al tocar una tarjeta, esa tarjeta se anima hacia la
   izquierda, el fondo se oscurece y aparece la descripcion a la derecha con
@@ -110,6 +110,15 @@ python tools/scan_games.py --root "_test_juegos"
 python tools/fetch_metadata.py --key TU_CLAVE_RAWG
 ```
 
+Para procesar una consola a la vez y no esperar dos horas del tiron:
+
+```bash
+python tools/fetch_metadata.py --key TU_CLAVE_RAWG --merge games/*.json --only ps2
+```
+
+`--merge` junta varios JSON de escaneo y quita repetidos por id. Al unir, si
+el mismo juego aparece en dos archivos, se queda con el que tenga caratula.
+
 De donde saca la informacion:
 
 1. **RAWG API** (recomendado). La clave gratuita se pide en
@@ -118,6 +127,19 @@ De donde saca la informacion:
    confunde la version de PS2 con la de PS5.
 2. **Sin clave**: cae a Wikipedia en espanol para el texto. La caratula queda
    vacia y se dibuja el placeholder.
+
+Sin clave de RAWG la cosa se pone lenta: Wikipedia corta las peticiones
+gratuitas y cada reintento espera 3, 6 y 9 segundos. Para 5.000 juegos no es
+viable. Pide la clave gratis antes de correr esto en serio.
+
+Ojo con los IDs de plataforma de RAWG (`RAWG_PLATFORM` en el script): estan
+puestos a mano y hay que confirmarlos con
+
+```
+GET https://api.rawg.io/api/platforms?key=TU_CLAVE
+```
+
+Si uno esta mal, la busqueda devuelve resultados de otra plataforma sin avisar.
 
 Al terminar escribe `src/data/games/*.js` listos para la web y un
 `game_review.json` con lo que conviene que revises a mano:
@@ -128,6 +150,33 @@ Al terminar escribe `src/data/games/*.js` listos para la web y un
 
 Los resultados se guardan en `rawg_cache.json`, asi que si volves a correrlo
 no consulta de nuevo lo que ya tiene. Para buscar todo de cero: `--no-cache`.
+
+### PS5: la lista sale de superpsx.com
+
+No tenias juegos de PS5 en el escaneo, asi que esa lista se baja de otro lado:
+
+```bash
+python tools/fetch_ps5_suppsx.py
+```
+
+Recorre las 37 paginas de la categoria de PS5 y escribe `games/ps5.json` con
+el mismo formato que los demas, ya con caratula incluida. Como el sitio solo
+pone "PS5" al final de cada titulo, el script limpia esa etiqueta y nada mas.
+
+Despues se sigue el paso 2 normal:
+
+```bash
+python tools/fetch_metadata.py --key TU_CLAVE --scan games/ps5.json
+```
+
+Si preferis las imagenes en tu propio sitio en vez de enlazarlas:
+
+```bash
+python tools/fetch_ps5_suppsx.py --download-covers
+```
+
+Las baja a `public/covers/ps5/`. Es mas lento pero no depende de que el sitio
+externo siga en pie.
 
 ### Opciones utiles
 
@@ -174,16 +223,30 @@ npm run build     # build de produccion en dist/
 npm run preview   # ver el build
 
 python tools/scan_games.py --root "..."   # escanear tus carpetas
+python tools/fetch_ps5_suppsx.py          # bajar la lista de PS5 de superpsx
 python tools/fetch_metadata.py --key ...  # buscar datos y caratulas
+python tools/analyze_games.py             # resumen de games/ (duplicados, basura)
+python tools/show_catalog.py games/ps5.json 20   # revisar una lista a ojo
 python tools/seed_catalog.py              # regenerar los catalogos de ejemplo
 python tools/check_text.py                # revisar que no haya caracteres raros
+
 node tools/test_geometry.mjs              # tests de la animacion de la ficha
+python tools/test_ps5_titles.py           # tests de limpieza de titulos
+python tools/test_wiki_filter.py          # tests del filtro de Wikipedia
 ```
 
-`check_text.py` y el test de geometria tambien corren en el workflow de deploy,
-para no publicar nunca una web con texto roto.
+Los cuatro tests (`check_text.py` y los tres de test) corren en el workflow de
+deploy, para no publicar nunca una web con texto roto ni con descripciones
+equivocadas.
 
-## Aviso
+## Avisos importantes
 
-Los precios de "Pirateo" son de ejemplo y se confirman por WhatsApp segun el
+**RAWG pide atribucion.** Sus terminos obligan a dar credito y enlazar a RAWG
+en las paginas donde se usan sus datos o sus imagenes. El pie de pagina ya lo
+hace. Si en algun momento cambias de fuente de imagenes, no hace falta.
+
+**No redistribuyas los datos de RAWG.** Puedes usarlos para tu sitio, pero no
+venderlos ni packaged como dataset para terceros.
+
+**Los precios de "Pirateo" son de ejemplo** y se confirman por WhatsApp segun el
 modelo de la consola. El sitio es informativo: no vende ni transacciona online.

@@ -195,7 +195,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/9d6/9d676a7543fab1c54f38d56a586ec7fd.jpg',
     players: ['1 jugador'],
     genre: 'Indie',
-    description: 'The first chapter of the AFFECTED trilogy is now available on Steam. With no puzzles to solve, high scores to beat or distracting VR mechanics, fully immerse yourself in this terrifying horror walk-through experience. With over 200 million YouTube hits and countless features worldwide, the ...',
+    description: 'The first chapter of the AFFECTED trilogy is now available on Steam.   With no puzzles to solve, high scores to beat or distracting VR mechanics, fully immerse yourself in this terrifying horror walk-through experience.   With over 200 million YouTube hits and countless features worldwide, the ...',
   },
   {
     id: 'afterimage',
@@ -447,7 +447,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/a3c/a3cbc692e9259b1c22aa9acdae6825d4.jpg',
     players: ['1 jugador'],
     genre: 'Variado',
-    description: 'There are many relaxing games like Stardew Valley and Forager. And then there\'s ANGRY. In this game you destroy zombies. Lots of them. What, you think this isn\'t an original idea?  We\'ll see... Game made for the Community Game Jam 2019 ANGRY 0.1.1. Win64-&gt; https://drive.google.com/open?id=11N...',
+    description: 'There are many relaxing games like Stardew Valley and Forager. And then there\'s ANGRY. In this game you destroy zombies. Lots of them. What, you think this isn\'t an original idea?  We\'ll see... Game made for the Community Game Jam 2019 ANGRY 0.1.1. Win64-&gt; https://drive.google.com/open?id=11N...',
   },
   {
     id: 'anima-gate-of-memories',
@@ -501,7 +501,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/e49/e497cca0e21625b8e36614399f0b970e.jpg',
     players: ['1 jugador', '2 jugadores', '4 jugadores'],
     genre: 'Action, Adventure, RPG, Indie',
-    description: 'The Gods of Olympus have abandoned humanity, leaving you to perish without their benevolence. Take up arms against the Gods, climb Mount Olympus, and take their divine powers for yourself to ensure mankind’s survival! Apotheon is a fast and brutal 2D action game with a striking art style and he...',
+    description: 'The Gods of Olympus have abandoned humanity, leaving you to perish without their benevolence. Take up arms against the Gods, climb Mount Olympus, and take their divine powers for yourself to ensure mankind’s survival!  Apotheon is a fast and brutal 2D action game with a striking art style and he...',
   },
   {
     id: 'aqua-moto-racing-utopia',
@@ -537,7 +537,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/046/046b0a325b1f0acab900648e32528824.jpg',
     players: ['1 jugador'],
     genre: 'Action',
-    description: 'First appearing in arcades in 1981, the masterpiece GALAGA finally comes to Steam! Move the fighter left and right, and destroy the waves of incoming aliens in this space-age shooter. Destroy all the enemies to advance to the next stage! Retrieve a captured fighter and combine into a Dual Figh...',
+    description: 'First appearing in arcades in 1981, the masterpiece GALAGA finally comes to Steam! Move the fighter left and right, and destroy the waves of incoming aliens in this space-age shooter. Destroy all the enemies to advance to the next stage! Retrieve a captured fighter and combine into a Dual Figh...',
   },
   {
     id: 'arcade-game-series-pac-man',
@@ -546,7 +546,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/1c5/1c59d4da43874ed344592e3c7482c6e6.jpg',
     players: ['1 jugador'],
     genre: 'Action',
-    description: 'First appearing in arcades in 1980, the masterpiece PAC-MAN finally comes to Steam! Move PAC-MAN up, down, left, and right to eat all the Pac-Dots, while avoiding the ghosts, to advance to the next stage. Eat a Power Pellet to turn the tables on the ghosts and rack up a huge score!  With simpl...',
+    description: 'First appearing in arcades in 1980, the masterpiece PAC-MAN finally comes to Steam! Move PAC-MAN up, down, left, and right to eat all the Pac-Dots, while avoiding the ghosts, to advance to the next stage. Eat a Power Pellet to turn the tables on the ghosts and rack up a huge score!  With simpl...',
   },
   {
     id: 'arcadegeddon',
@@ -1077,7 +1077,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/f52/f520d43e793d11acfc86276127204dba.jpg',
     players: ['1 jugador'],
     genre: 'Action, Adventure, RPG, Indie',
-    description: 'Journey through a magical land teeming with mysteries to unravel. Baldo: the Guardian Owls is full of challenging puzzles to solve and intricate dungeons to explore. Traverse this captivating open world as Baldo, and meet a host of quirky and unforgettable characters, as you struggle to deciphe...',
+    description: 'Journey through a magical land teeming with mysteries to unravel. Baldo: the Guardian Owls is full of challenging puzzles to solve and intricate dungeons to explore. Traverse this captivating open world as Baldo, and meet a host of quirky and unforgettable characters, as you struggle to deciphe...',
   },
   {
     id: 'baldurs-gate-and-baldurs-gate-2-enhanced-editions',
@@ -1311,7 +1311,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/438/4386fdc13fa355b57303c9a89507964f.jpg',
     players: ['1 jugador', '2 jugadores', '4 jugadores'],
     genre: 'Action, Adventure',
-    description: 'Ben Tennyson and his family are all set for a relaxing European vacation – until evil Hex awakens four mysterious crystals and summons monstrous visitors from the Void. Now it’s up to you to help Ben stop the master magician’s Hex-tremely fiendish plans! So put on the Omnitrix and transform into...',
+    description: 'Ben Tennyson and his family are all set for a relaxing European vacation – until evil Hex awakens four mysterious crystals and summons monstrous visitors from the Void. Now it’s up to you to help Ben stop the master magician’s Hex-tremely fiendish plans! So put on the Omnitrix and transform into...',
   },
   {
     id: 'bendy-and-the-ink-machine-game',
@@ -1545,7 +1545,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/a8a/a8a7ec6d788fcc077cd0782404286cfe.jpg',
     players: ['1 jugador', '2 jugadores', '4 jugadores'],
     genre: 'Action, Arcade, Casual',
-    description: 'KONAMI starts its 50th anniversary celebration with this first installment of the Anniversary Collection series of the all-time classics!  This collection includes 8 arcade masterpieces of the 80s, from Nemesis to Haunted Castle. Experience these KONAMI classics in all their retro glory, now en...',
+    description: 'KONAMI starts its 50th anniversary celebration with this first installment of the Anniversary Collection series of the all-time classics!  This collection includes 8 arcade masterpieces of the 80s, from Nemesis to Haunted Castle. Experience these KONAMI classics in all their retro glory, now en...',
   },
   {
     id: 'blood-and-truth-r',
@@ -2112,7 +2112,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/32d/32d11ad7054dd39d55a54f4c97b2b207.jpg',
     players: ['1 jugador', '2 jugadores', '4 jugadores'],
     genre: 'Action, Fighting',
-    description: 'CHAOS CODE -NEW SIGN OF CATASTROPHE- is a simple yet highly flexible hi-speed 2D Fighting game, where players can enjoy the thrill of fighting with all the flashy moves! There are 7 game modes in the game. Online play is also available for players connected to the internet. Choose from 16 uniqu...',
+    description: 'CHAOS CODE -NEW SIGN OF CATASTROPHE- is a simple yet highly flexible hi-speed 2D Fighting game, where players can enjoy the thrill of fighting with all the flashy moves! There are 7 game modes in the game. Online play is also available for players connected to the internet. Choose from 16 uniqu...',
   },
   {
     id: 'chaos-on-deponia',
@@ -2220,7 +2220,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/8e5/8e5bba6cdb69d1b0fe7b28050f680f05.jpg',
     players: ['1 jugador'],
     genre: 'RPG',
-    description: 'Just because you’ve been elected as the Vice President of the World doesn’t mean you have time to relax!  Things are going mad around town, and only YOU have the charisma it takes to... delegate all the dirty work and convince your constituents to save the world in this retro-RPG! Recruit everyo...',
+    description: 'Just because you’ve been elected as the Vice President of the World doesn’t mean you have time to relax!  Things are going mad around town, and only YOU have the charisma it takes to... delegate all the dirty work and convince your constituents to save the world in this retro-RPG! Recruit everyo...',
   },
   {
     id: 'clash-artifacts-of-chaos',
@@ -2868,7 +2868,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/646/64695e99c03dc14ef18c087593abc69c.jpg',
     players: ['1 jugador'],
     genre: 'Variado',
-    description: 'Experience first-hand the world of a professional drone pilot!DCL combines the adventure of free flight with the thrill of high speed racing. Choose between different flight modes that guide new players  from novice flyers to professional drone pilots.Do you have what it takes? DCL The Ga...',
+    description: 'Experience first-hand the world of a professional drone pilot! DCL combines the adventure of free flight with the thrill of high speed racing. Choose between different flight modes that guide new players  from novice flyers to professional drone pilots. Do you have what it takes?   DCL The Ga...',
   },
   {
     id: 'de-blob-2',
@@ -3084,7 +3084,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/628/628566ff5ac605a62688ec9813ffe485_2SHmtKt.jpg',
     players: ['1 jugador'],
     genre: 'Action, Simulation, Sports',
-    description: 'Deer Hunter is Back! Deer Hunter: Reloaded is a 1st person hunting simulation game based off of the #1 hunting franchise in the World.  Deer Hunter will provide an authentic hunting experience for players as they venture to some of the top-rated hunting regions in North America from the plains o...',
+    description: 'Deer Hunter is Back! Deer Hunter: Reloaded is a 1st person hunting simulation game based off of the #1 hunting franchise in the World.  Deer Hunter will provide an authentic hunting experience for players as they venture to some of the top-rated hunting regions in North America from the plains o...',
   },
   {
     id: 'deil-may-cry-4-special-edition-spa',
@@ -3561,7 +3561,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/7cb/7cb22f966778982dad40f5c6fe044e39.jpg',
     players: ['1 jugador'],
     genre: 'Adventure, Simulation, Casual',
-    description: 'Doraemon meets Story of Seasons in this new, fresh take on farming!  Japan\'s adored Doraemon franchise comes to Steam in Story of Seasons, a beloved farming simulation series lasting over 20 years.  The setting is Natura, and at the center of this land is the mystical Big Tree. Doraemon and f...',
+    description: 'Doraemon meets Story of Seasons in this new, fresh take on farming!   Japan\'s adored Doraemon franchise comes to Steam in Story of Seasons, a beloved farming simulation series lasting over 20 years.   The setting is Natura, and at the center of this land is the mystical Big Tree. Doraemon and f...',
   },
   {
     id: 'double-dragon-and-kunio-kun-retro-brawler-bundle',
@@ -3660,7 +3660,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/ed3/ed3e0ff5c28bc4369adf766867c80742.jpg',
     players: ['1 jugador'],
     genre: 'RPG, Indie',
-    description: 'Dragon Fin Soup seamlessly blends genres to create a fresh experience: half story-driven tactical RPG and half high-stakes roguelike, with a pinch of crass humor and a heaping helping of murder &amp; madness set in a procedurally generated fantasy world. Meet Red Robin - a charming, yet raging ...',
+    description: 'Dragon Fin Soup seamlessly blends genres to create a fresh experience: half story-driven tactical RPG and half high-stakes roguelike, with a pinch of crass humor and a heaping helping of murder &amp; madness set in a procedurally generated fantasy world.  Meet Red Robin - a charming, yet raging ...',
   },
   {
     id: 'dragon-quest-builders',
@@ -4362,7 +4362,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/36d/36d248f8059fd51727261bd49aab6adc.jpg',
     players: ['1 jugador'],
     genre: 'Adventure',
-    description: 'Set in the mythical age of Vikings, FATED: The Silent Oath tells a tale of courage and sacrifice where an everyday father and husband must do the impossible to save his family from the destruction of the world at the hands of giants of old. FATED is a first-person movie-length narrative-advent...',
+    description: 'Set in the mythical age of Vikings, FATED: The Silent Oath tells a tale of courage and sacrifice where an everyday father and husband must do the impossible to save his family from the destruction of the world at the hands of giants of old.   FATED is a first-person movie-length narrative-advent...',
   },
   {
     id: 'fell-seal-arbiters-mark',
@@ -4758,7 +4758,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/160/160f894fc774f4cc51a99f435abadd4e.jpg',
     players: ['1 jugador', '2 jugadores', '4 jugadores'],
     genre: 'Action, Adventure, Casual, Indie',
-    description: 'Gang Beasts is a silly multiplayer party game with surly gelatinous characters, brutal mêlée fight sequences, and absurdly hazardous environments. Watch in horror and amusement as gangs of gummy miscreants fight to grab, push, pull, and force their enemies from suspended window cleaning scaffol...',
+    description: 'Gang Beasts is a silly multiplayer party game with surly gelatinous characters, brutal mêlée fight sequences, and absurdly hazardous environments.  Watch in horror and amusement as gangs of gummy miscreants fight to grab, push, pull, and force their enemies from suspended window cleaning scaffol...',
   },
   {
     id: 'garffield-lasagna-party',
@@ -5235,7 +5235,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/791/7916ddf4b95e0700ec690ef8444cd1e5.jpg',
     players: ['1 jugador'],
     genre: 'Action, Simulation, Indie',
-    description: 'Take to the range with an arsenal of the world’s most powerful weaponry in Gun Club VR. Addictive gameplay and unsurpassed realism combine to make Gun Club VR the ultimate virtual weapon simulator. The only thing missing is the smell of the gunpowder.   UNPARALLELED REALISM Your favourite firea...',
+    description: 'Take to the range with an arsenal of the world’s most powerful weaponry in Gun Club VR. Addictive gameplay and unsurpassed realism combine to make Gun Club VR the ultimate virtual weapon simulator. The only thing missing is the smell of the gunpowder.   UNPARALLELED REALISM Your favourite firea...',
   },
   {
     id: 'gundam-movile-suit-extreme-vs-maxibooston',
@@ -5361,7 +5361,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/18b/18bf321d0286f3d988b7da1d33520e74.jpg',
     players: ['1 jugador'],
     genre: 'Adventure, RPG, Simulation',
-    description: 'Explore the Amazing World of Anthos! The land of Anthos was a peaceful and harmonious land watched over by the Harvest Goddess and the Harvest Sprites, who protected the inhabitants of Anthos from natural disasters such as storms, earthquakes, and the like. However, one day many years ago, An...',
+    description: 'Explore the Amazing World of Anthos!  The land of Anthos was a peaceful and harmonious land watched over by the Harvest Goddess and the Harvest Sprites, who protected the inhabitants of Anthos from natural disasters such as storms, earthquakes, and the like.  However, one day many years ago, An...',
   },
   {
     id: 'hasbro-family-fun-pack-4-in-1',
@@ -5766,7 +5766,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/1ed/1eda623ed162d69ca96ae926d08f1ce6.jpg',
     players: ['1 jugador'],
     genre: 'Indie, Puzzle',
-    description: '** AGENT, YOUR EXPLOSIVE, FINAL MISSION \'OPERATION: DEATH ENGINE\' IS NOW AVAILABLE ** ​I Expect You To Die is a virtual reality puzzle game that places you in the well-polished shoes of an elite secret agent. You must attempt to survive deadly situations in immersive and dangerous locales. Com...',
+    description: '** AGENT, YOUR EXPLOSIVE, FINAL MISSION \'OPERATION: DEATH ENGINE\' IS NOW AVAILABLE **  ​​I Expect You To Die is a virtual reality puzzle game that places you in the well-polished shoes of an elite secret agent. You must attempt to survive deadly situations in immersive and dangerous locales. Com...',
   },
   {
     id: 'i-saw-black-clouds',
@@ -7332,7 +7332,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/756/756926937237a230abcf949875799fe8.jpg',
     players: ['1 jugador'],
     genre: 'Adventure, RPG, Strategy, Casual',
-    description: 'Patty\'s brother has been possessed by the God of Poverty and the whole family has become poor, with huge debts... This is the beginning of Patty\'s struggle! To pay back the debts, let\'s open a tavern in Marenia, gather ingredients, and start cooking! Run the adventure tavern how you like! Colle...',
+    description: 'Patty\'s brother has been possessed by the God of Poverty and the whole family has become poor, with huge debts... This is the beginning of Patty\'s struggle! To pay back the debts, let\'s open a tavern in Marenia, gather ingredients, and start cooking!  Run the adventure tavern how you like! Colle...',
   },
   {
     id: 'mario-mania',
@@ -7575,7 +7575,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/829/829310f99ac4464f026c3c76dc61169a.jpg',
     players: ['1 jugador'],
     genre: 'Action',
-    description: 'Metal Gear The first title in the METAL GEAR series, released in 1987. This praised game series was born from the idea of avoiding combat and infiltrating enemy territory undetected, a complete reversal of common action gameplay resulting in the creation of a brand-new game genre: stealth action...',
+    description: 'Metal Gear The first title in the METAL GEAR series, released in 1987. This praised game series was born from the idea of avoiding combat and infiltrating enemy territory undetected, a complete reversal of common action gameplay resulting in the creation of a brand-new game genre: stealth action...',
   },
   {
     id: 'metal-gear-solid',
@@ -7827,7 +7827,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/0e3/0e358231f9baa56f6538fd3ea7bf0a5a.jpg',
     players: ['1 jugador', '2 jugadores', '4 jugadores'],
     genre: 'Adventure',
-    description: 'Be Strong…Be Brave…Be Miraculous! Paris needs a hero! Once again, the city of lights is in trouble as it faces a new menace—the most threatening sentimonster ever created is about to take control!  As you take on the personas of the globally renowned superheroez Ladybug and Cat Noir, you’ll nee...',
+    description: 'Be Strong…Be Brave…Be Miraculous!  Paris needs a hero! Once again, the city of lights is in trouble as it faces a new menace—the most threatening sentimonster ever created is about to take control!  As you take on the personas of the globally renowned superheroez Ladybug and Cat Noir, you’ll nee...',
   },
   {
     id: 'mirrors-edge-catalyst',
@@ -8286,7 +8286,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/16f/16fe0af4f4744dba1e80cadb4457e5b1.jpg',
     players: ['1 jugador'],
     genre: 'Casual',
-    description: 'Start your medical career! You have the option to play two new recruits who\'ve just arrived. Gradually, you\'ll realise that your day-to- day existence is going to be anything but restful. Build relationships with the other members of your new team and get to know their funny and moving personal...',
+    description: 'Start your medical career!  You have the option to play two new recruits who\'ve just arrived. Gradually, you\'ll realise that your day-to- day existence is going to be anything but restful. Build relationships with the other members of your new team and get to know their funny and moving personal...',
   },
   {
     id: 'my-universe-cooking-star-restaurant',
@@ -8313,7 +8313,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/fda/fda296aaed2d80c2307f93eda8a9e5fa.jpg',
     players: ['1 jugador'],
     genre: 'Casual',
-    description: 'Discover a new generation of baby simulation: feed them, bath them, change their diapers, play together… like in real life! Your baby needs you!Every action contributes to your baby’s happiness and love for you. Use all items at your disposal (toys, plushies…) to motivate them to carry out ne...',
+    description: 'Discover a new generation of baby simulation: feed them, bath them, change their diapers, play together… like in real life!  Your baby needs you! Every action contributes to your baby’s happiness and love for you. Use all items at your disposal (toys, plushies…) to motivate them to carry out ne...',
   },
   {
     id: 'my-universe-school-teacher',
@@ -8439,7 +8439,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/972/97230e2ff0a31e60343f66fc5b325c20.jpg',
     players: ['1 jugador'],
     genre: 'Action, Shooter, Casual, Indie',
-    description: 'Naught is a platform videogame with a unique control where you rotate the environment to change gravity and guide the main character, Naught, through labyrinth levels full of challenges, hidden places and secrets.  Featuring varied, dynamic gameplay, Naught explores 40 levels where he must dodg...',
+    description: 'Naught is a platform videogame with a unique control where you rotate the environment to change gravity and guide the main character, Naught, through labyrinth levels full of challenges, hidden places and secrets.   Featuring varied, dynamic gameplay, Naught explores 40 levels where he must dodg...',
   },
   {
     id: 'nba-2k-playgrounds-2-eur',
@@ -8610,7 +8610,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/880/880ca9c8cb5b3270c719c0202f27f2a7.jpg',
     players: ['1 jugador'],
     genre: 'Action, Adventure, Platformer',
-    description: 'Join Lucky on his thrilling journey through the Book of Ages, a magical artifact that opens doors to amazing worlds. Meet new friends, explore exciting lands, and recover the missing pages from the evil sorcerer Jinx and his villainous family, the dreaded Kitty Litter. Featuring a huge variet...',
+    description: 'Join Lucky on his thrilling journey through the Book of Ages, a magical artifact that opens doors to amazing worlds. Meet new friends, explore exciting lands, and recover the missing pages from the evil sorcerer Jinx and his villainous family, the dreaded Kitty Litter.  • Featuring a huge variet...',
   },
   {
     id: 'new-tales-from-the-borderlands',
@@ -9222,7 +9222,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/ac3/ac3fa13e5544d64a4a0fc0345287a158.jpg',
     players: ['1 jugador'],
     genre: 'Adventure, RPG',
-    description: 'Armed with a flashlight, you find yourself exploring what appears to be a quiet average looking home in a woodsy neighborhood. Before long, you discover you’re not alone as you unravel the mystery of what’s gone on in this house and struggle to survive the terror that begins to hunt you. This o...',
+    description: 'Armed with a flashlight, you find yourself exploring what appears to be a quiet average looking home in a woodsy neighborhood. Before long, you discover you’re not alone as you unravel the mystery of what’s gone on in this house and struggle to survive the terror that begins to hunt you.  This o...',
   },
   {
     id: 'parappa-the-rapper-remastered',
@@ -10689,7 +10689,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/games/3cc/3cc2aa4c3379f97530a38f50b1ab3660.jpg',
     players: ['1 jugador'],
     genre: 'Adventure',
-    description: 'Get the best of Scribblenauts with Scribblenauts Mega Pack! Two classic games with ALL-NEW content to explore! Scribblenauts Unlimited - Journey into Maxwell and Lily\'s world as you use the power of your imagination to solve exciting puzzles in endless ways. Discover the story of Maxwell\'s 41 ...',
+    description: 'Get the best of Scribblenauts with Scribblenauts Mega Pack! Two classic games with ALL-NEW content to explore!  Scribblenauts Unlimited - Journey into Maxwell and Lily\'s world as you use the power of your imagination to solve exciting puzzles in endless ways. Discover the story of Maxwell\'s 41 ...',
   },
   {
     id: 'scribblenauts-showdown',
@@ -11487,7 +11487,7 @@ export const PS4_GAMES = [
     id: 'snoopy-s-grand-adenture',
     title: 'Snoopy\'s Grand Adenture',
     year: 2015,
-    cover: 'https://via.placeholder.com/264x376?text=Snoopy\'s%20Grand%20Adent',
+    cover: 'https://via.placeholder.com/264x376?text=Snoopy's%20Grand%20Adent',
     players: ['1 jugador'],
     genre: 'Platformer',
     description: 'The Peanuts Movie: Snoopy\'s Grand Adventure is a platformer game developed by Behaviour Interactive. It came out on 03-11-2015. Activison published the game. On review aggregator Metacritic, The Peanuts Movie: Snoopy\'s Grand Adventure has a score of 60. Most rawgers rated the game as "Recommended...',
@@ -11769,7 +11769,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/8ff/8ff5699081909d2919efa3a142d11484.jpg',
     players: ['1 jugador'],
     genre: 'Action',
-    description: 'This is just a side project i am working on and i might have to take this down soon because of copyright issues.',
+    description: 'This is just a side project i am working on and i might have to take this down soon because of copyright issues. Controls: LEFT SHIFT while in the air: swing WASD: walking controlls SPACEBAR: jump LEFT SHIFT + SPACEBAR: high jump LEFT SHIFT while on the ground: sprint WARNING:  This game requ...',
   },
   {
     id: 'spirit-of-the-north',
@@ -11823,7 +11823,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/056/0564efb8d9e0cd2dde765ac61d97c3e1.jpg',
     players: ['1 jugador'],
     genre: 'Indie, Puzzle',
-    description: 'NEW STEAM FEATURES:trading cardsleaderboardssteam achievementscloud saving Don\'t let the cartoon visuals fool you. Being a RGB Agent requires some good skills. Spy Chameleon RGB Agent is a challenging arcade-puzzle game where the player needs to avoid being spotted thanks to t...',
+    description: 'NEW STEAM FEATURES: - trading cards - leaderboards - steam achievements - cloud saving  Don\'t let the cartoon visuals fool you. Being a RGB Agent requires some good skills.  Spy Chameleon RGB Agent is a challenging arcade-puzzle game where the player needs to avoid being spotted thanks to t...',
   },
   {
     id: 'spyro-reignited-trilogy',
@@ -12336,7 +12336,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/a62/a620e92964c8cfdbc2af11c01ced4c6e.jpg',
     players: ['1 jugador', '2 jugadores', '4 jugadores'],
     genre: 'Action, Adventure, RPG, Indie',
-    description: 'Upgraded with improved visuals and checkpoints, as well as other difficulty rebalances and polish. The sequel no one asked for, to the game that nobody liked! The Exaction Faction, an intergalactic troupe of super heroes, has come to arrest President Eagle! Explore GunWorld to level up, collect...',
+    description: 'Upgraded with improved visuals and checkpoints, as well as other difficulty rebalances and polish.  The sequel no one asked for, to the game that nobody liked! The Exaction Faction, an intergalactic troupe of super heroes, has come to arrest President Eagle! Explore GunWorld to level up, collect...',
   },
   {
     id: 'super-hydorah',
@@ -12624,7 +12624,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/ed9/ed965e5ffea36e9f3ac07b681cd69944.jpg',
     players: ['1 jugador'],
     genre: 'Action, Platformer',
-    description: 'Arcade Classics Playable Teaser 1.0 (2 levels) - currently under development Windows x64 only Controls: Cursor Keys / Z / X or Gamepad Press "Intro" to Insert Coin and "1" to Start Dev-Log: Link  Support us to continue with this project !  JuaN-MoD  More Games - Shines Over - Shines Over II -...',
+    description: 'Arcade Classics   Playable Teaser 1.0 (2 levels) - currently under development Windows x64 only Controls: Cursor Keys / Z / X or Gamepad Press "Intro" to Insert Coin and "1" to Start Dev-Log: Link  Support us to continue with this project !  JuaN-MoD  More Games - Shines Over - Shines Over II -...',
   },
   {
     id: 'teenage-mutant-ninja-turtles-mutants-unleashed',
@@ -12678,7 +12678,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/6b0/6b09df7a4fdfd8dc829f834a7efbdc9f.jpg',
     players: ['1 jugador'],
     genre: 'Action, Adventure',
-    description: 'Presenting Tenebris Pictura, an ultra-corporeal action adventure brought to you by the creators of Megaton Rainfall. You\'ll be plunged back to the Victorian era, playing the role of a paranormal investigator with psychic abilities who has landed in a misty, convoluted island, brimming with myst...',
+    description: 'Presenting Tenebris Pictura, an ultra-corporeal action adventure brought to you by the creators of Megaton Rainfall.  You\'ll be plunged back to the Victorian era, playing the role of a paranormal investigator with psychic abilities who has landed in a misty, convoluted island, brimming with myst...',
   },
   {
     id: 'tennis-world-tour-es',
@@ -13569,7 +13569,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/c31/c31daaa4ed177891f11074f74f573660.jpg',
     players: ['1 jugador'],
     genre: 'Action, RPG, Indie',
-    description: 'Conquer the forces of Death in A Wizard’s Lizard, an action RPG for Windows, Mac and Linux. Explore ever-changing dungeons, filled with valuable treasure and powerful items, while battling back the hordes of evil. Rescue townsfolk to improve your town and aid your next trek into the dungeon. Fa...',
+    description: 'Conquer the forces of Death in A Wizard’s Lizard, an action RPG for Windows, Mac and Linux. Explore ever-changing dungeons, filled with valuable treasure and powerful items, while battling back the hordes of evil. Rescue townsfolk to improve your town and aid your next trek into the dungeon.  Fa...',
   },
   {
     id: 'the-wolf-among-us',
@@ -14064,7 +14064,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/2bc/2bc54ac2f798e2c8645c86c1ff2413ec.jpg',
     players: ['1 jugador', '2 jugadores', '4 jugadores'],
     genre: 'Racing',
-    description: 'Play Trials® Rising for free now during Open Beta! Be among the first to explore over-the-top action and physics-bending motorcycle racing in the latest game in the Trials® franchise.   In the Open Beta, get behind the handlebars to experience challenging tracks all around the world. Prove yo...',
+    description: 'Play Trials® Rising for free now during Open Beta!  Be among the first to explore over-the-top action and physics-bending motorcycle racing in the latest game in the Trials® franchise.    In the Open Beta, get behind the handlebars to experience challenging tracks all around the world. Prove yo...',
   },
   {
     id: 'tricky-towers',
@@ -14829,7 +14829,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/f0b/f0b62e6cda41ae5e98daa0e903e8fcd8.jpg',
     players: ['1 jugador', '2 jugadores', '4 jugadores'],
     genre: 'Action, Arcade, Indie',
-    description: 'From the folks behind the BIT.TRIP series comes the frantic insanity that is WOAH DAVE! Help our hero, Dave Lonuts, survive an insane alien invasion and line his pockets with shiny pennies. Hurl alien eggs, skull bombs, and explosive WOAH blocks to stay alive and sky rocket yourself to high sco...',
+    description: 'From the folks behind the BIT.TRIP series comes the frantic insanity that is WOAH DAVE! Help our hero, Dave Lonuts, survive an insane alien invasion and line his pockets with shiny pennies.  Hurl alien eggs, skull bombs, and explosive WOAH blocks to stay alive and sky rocket yourself to high sco...',
   },
   {
     id: 'wolfenstein-ii-the-new-colossus',
@@ -15063,7 +15063,7 @@ export const PS4_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/49e/49e6b734cfad4ba1f0eb53c42267141a.jpg',
     players: ['1 jugador'],
     genre: 'Action, Adventure, Indie',
-    description: 'Yasai Ninja is a Hack &amp; Slash adventure set in a particular Feudal Japan  that tells the story of two veggie-heroes, Kaoru Tamanegi and Broccoli Joe, who will have to learn how to cooperate to fight their way through multiple dangers. Friendship, personal growth, honour and teamwork are com...',
+    description: 'Yasai Ninja is a Hack &amp; Slash adventure set in a particular Feudal Japan  that tells the story of two veggie-heroes, Kaoru Tamanegi and Broccoli Joe, who will have to learn how to cooperate to fight their way through multiple dangers.  Friendship, personal growth, honour and teamwork are com...',
   },
   {
     id: 'yesterday-origins',

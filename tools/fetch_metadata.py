@@ -41,15 +41,28 @@ CACHE_FILE = ROOT / "rawg_cache.json"
 # slug de consola -> (constante JS, etiqueta legible)
 CONSOLE_INFO = {
     "ps2": ("PS2_GAMES", "PlayStation 2"),
+    "psp": ("PSP_GAMES", "PlayStation Portable"),
     "ps3": ("PS3_GAMES", "PlayStation 3"),
     "xbox360": ("XBOX360_GAMES", "Xbox 360"),
     "ps4": ("PS4_GAMES", "PlayStation 4"),
     "ps5": ("PS5_GAMES", "PlayStation 5"),
 }
 
+# Consolas que aparecen en los escaneos pero no tienen pagina en la web.
+# Se avisan y se ignoran, para que quede claro que fue a proposito.
+IGNORED_CONSOLES = {
+    "ps1": "no hay apartado para PS1",
+    "gc": "no hay apartado para GameCube",
+    "wii": "no hay apartado para Wii",
+}
+
 # id de plataforma en RAWG para cada consola.
+# OJO: estos ids hay que confirmarlos con
+#   GET https://api.rawg.io/api/platforms?key=TU_CLAVE
+# porque si estan mal la busqueda devuelve resultados de otra plataforma.
 RAWG_PLATFORM = {
     "ps2": 8,
+    "psp": 13,
     "ps3": 9,
     "xbox360": 49,
     "ps4": 48,
@@ -301,26 +314,113 @@ def wiki_search(title: str, limit: int = 3) -> str | None:
     return hits[0].get("title")
 
 
+def normalize_title(text: str) -> str:
+    """
+    Deja un titulo comparable: sin acentos, sin puntuacion y sin el
+    parentesis final que usa Wikipedia para desambiguar
+    ("Demon's Souls (2009 video game)" -> "demonssouls").
+    """
+    import unicodedata
+    text = re.sub(r"\s*\([^)]*\)\s*$", "", text.strip())
+    s = unicodedata.normalize("NFKD", text.lower())
+    s = "".join(c for c in s if not unicodedata.combining(c))
+    return re.sub(r"[^a-z0-9]", "", s)
+
+
+def similar(a: str, b: str) -> float:
+    """Que tan parecidas son dos cadenas, de 0 a 1."""
+    import difflib
+    na = normalize_title(a)
+    nb = normalize_title(b)
+    if not na or not nb:
+        return 0.0
+    return difflib.SequenceMatcher(None, na, nb).ratio()
+
+
+# Fraccion minima de parecido para dar por buena una pagina de Wikipedia.
+# Con 0.72 "Demons Souls" ~ "Demon's Souls" pasa, y en cambio
+# "High On Life 2" contra el album "Infinity on High" se rechaza.
+WIKI_MIN_SIMILARITY = 0.72
+
+
+def trailing_number(text: str):
+    """
+    Devuelve el numero de saga al final del titulo, como texto comparable.
+
+    "Assassins Creed II"  -> "II"   (numero romano como palabra suelta)
+    "Final Fantasy X"    -> "X"
+    "Halo 3"             -> "3"
+    "God of War"         -> None
+
+    Sirve para distinguir sagas: "Assassins Creed II" no es lo mismo que
+    "Assassin's Creed". Solo mira la ultima palabra, asi "Trifox" no se
+    confunde con un numero romano.
+    """
+    text = re.sub(r"\s*\([^)]*\)\s*$", "", text.strip())
+    words = re.findall(r"[A-Za-z0-9]+", text)
+    if not words:
+        return None
+    last = words[-1]
+    if last.isdigit():
+        return str(int(last))
+    if re.fullmatch(r"[ivxlcdm]+", last, re.I) and len(last) <= 6:
+        return last.upper()
+    return None
+
+
+def wiki_match_is_trustworthy(query: str, page_title: str) -> bool:
+    """
+    Decide si la pagina que devolvio la busqueda difusa es el juego que
+    buscamos. Exige tres cosas a la vez:
+
+      1. parecido alto (SequenceMatcher >= 0.72), y
+      2. que un titulo este contenido en el otro, y
+      3. que el numero de saga sea el mismo.
+
+    La segunda regla evita los falsos positivos con titulos cortos: "Trifox"
+    contra "Trix" da 0.80 de parecido, pero "trix" no aparece dentro de
+    "trifox". La tercera evita mezclar sagas: "Assassins Creed II" contra
+    "Assassin's Creed".
+    """
+    nq = normalize_title(query)
+    np_ = normalize_title(page_title)
+    if not nq or not np_:
+        return False
+    if similar(query, page_title) < WIKI_MIN_SIMILARITY:
+        return False
+    if not (nq in np_ or np_ in nq):
+        return False
+    if trailing_number(query) != trailing_number(page_title):
+        return False
+    return True
+
+
 def wikipedia_fallback(title: str) -> tuple[str, str, str | None] | None:
     """
-    Ultimo recurso: resumen de Wikipedia en español.
+    Ultimo recurso: resumen de Wikipedia en espanol.
 
     Devuelve (texto, url, titulo_oficial). El titulo oficial solo se llena
     cuando el match fue exacto (o casi, por un apostolito faltante), porque
     en la busqueda difusa Wikipedia puede devolver otro juego distinto.
+
+    Importante: si la pagina encontrada NO se parece lo suficiente al titulo
+    que buscamos, devolvemos None en vez de colgarle una descripcion que
+    es de otro juego. Es preferible quedarse sin descripcion.
     """
     for candidate in _title_variants(title):
         result = wiki_extract(candidate)
         if result:
             extract, url = result
-            official = candidate if candidate == title else candidate
-            return summarize(extract, 300), url, official
+            return summarize(extract, 300), url, candidate
 
-    # El titulo tal cual no funciono: buscamos por palabras.
+    # El titulo tal cual no funciono: buscamos por palabras, pero solo aceptamos
+    # el resultado si la pagina se parece bastante a lo que pedimos.
     query = title
     for _ in range(2):
         page = wiki_search(query)
         if not page:
+            return None
+        if not wiki_match_is_trustworthy(query, page):
             return None
         result = wiki_extract(page)
         if result:
@@ -343,6 +443,15 @@ def _title_variants(title: str) -> list[str]:
     if m and not title.lower().startswith("mgs"):
         variants.append(f"{m.group(1)}'{m.group(2)}{m.group(3)}")
     return variants
+
+
+def slugify(text: str) -> str:
+    """Mismo criterio que scan_games.py, para deduplicar entre archivos."""
+    import unicodedata
+    s = unicodedata.normalize("NFKD", text.lower())
+    s = "".join(c for c in s if not unicodedata.combining(c))
+    s = re.sub(r"[^a-z0-9]+", "-", s)
+    return re.sub(r"-+", "-", s).strip("-")
 
 
 def js_str(value) -> str:
@@ -413,19 +522,51 @@ def main() -> int:
         help="Carpeta donde se escriben los .js (default: src/data/games)",
     )
     parser.add_argument(
+        "--only",
+        default="",
+        help="Procesa solo esas consolas, separadas por coma. Ej: --only ps2,ps5",
+    )
+    parser.add_argument(
+        "--merge",
+        nargs="*",
+        default=[],
+        metavar="ARCHIVO",
+        help="Varios JSON de escaneo a la vez. Se unen y se quitan repetidos por id.",
+    )
+    parser.add_argument(
         "--no-cache",
         action="store_true",
         help="Ignora la cache y vuelve a buscar todo",
     )
     args = parser.parse_args()
 
-    scan_file = Path(args.scan)
-    if not scan_file.exists():
-        raise SystemExit(
-            f"No existe {scan_file}.\nPrimero corré:  python tools/scan_games.py --root \"D:\\Juegos\""
-        )
+    only = {c.strip() for c in args.only.split(",") if c.strip()}
 
-    scanned = json.loads(scan_file.read_text(encoding="utf-8"))
+    # Con --merge juntamos varios archivos en una sola lista.
+    scan_files = [Path(f) for f in args.merge] if args.merge else [Path(args.scan)]
+    for f in scan_files:
+        if not f.exists():
+            raise SystemExit(f"No existe {f}.")
+
+    scanned: dict[str, list[dict]] = {}
+    if len(scan_files) > 1:
+        # Al unir, un juego repetido se queda con la version que tenga el
+        # campo `cover` (o sea, la que vino del scraper de superpsx).
+        for f in scan_files:
+            data = json.loads(f.read_text(encoding="utf-8"))
+            for console, games in data.items():
+                bucket = scanned.setdefault(console, {})
+                for g in games:
+                    key = g.get("id") or slugify(g.get("title", ""))
+                    if key not in bucket or (g.get("cover") and not bucket[key].get("cover")):
+                        bucket[key] = g
+        scanned = {c: list(b.values()) for c, b in scanned.items()}
+        print("Archivos unidos:\n")
+        for f in scan_files:
+            print(f"  - {f.name}")
+        print()
+    else:
+        scanned = json.loads(scan_files[0].read_text(encoding="utf-8"))
 
     cache = {} if args.no_cache else load_cache()
     review: list[dict] = []
@@ -433,8 +574,17 @@ def main() -> int:
     out_dir.mkdir(parents=True, exist_ok=True)
 
     for console_slug, entries in scanned.items():
+        if console_slug in IGNORED_CONSOLES:
+            print(
+                f"\n=== {console_slug}: {len(entries)} juegos, ignorados "
+                f"({IGNORED_CONSOLES[console_slug]}) ==="
+            )
+            continue
         if console_slug not in CONSOLE_INFO:
             print(f"\nConsola desconocida, se salta: {console_slug}")
+            continue
+        if only and console_slug not in only:
+            print(f"\n=== {console_slug}: saltada por --only ===")
             continue
 
         const, label = CONSOLE_INFO[console_slug]
@@ -488,6 +638,12 @@ def main() -> int:
                             "_duda_players": True,
                         }
                     polite_pause(args.delay)
+
+                # Si el escaneo trajo caratula (vino del scraper de superpsx)
+                # y el resultado no tiene, nos quedamos con la del escaneo.
+                if not game.get("cover") and item.get("cover"):
+                    game["cover"] = item["cover"]
+                    game["_cover_from"] = "escaneo"
 
                 cache[key] = game
                 print(f"[{game['_source'].split(':')[0]}]")

@@ -49,7 +49,12 @@ export default function Footer() {
         <span>
           {year} {SITE.name}. Todos los derechos reservados.
         </span>
-        <span>Sitio informativo sin fines de venta online.</span>
+        <span>
+          Datos de juegos y caratulas de{' '}
+          <a href="https://rawg.io/" target="_blank" rel="noreferrer noopener">
+            RAWG
+          </a>
+        </span>
       </div>
     </footer>
   )
