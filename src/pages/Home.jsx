@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom'
 import { CONSOLES } from '../data/consoles.js'
-import { getGames } from '../data/games/index.js'
+import { getCount, getPreviews, totalCount, prefetch } from '../data/games/loader.js'
 import GameCover from '../components/GameCover.jsx'
 import ContactSection from '../components/ContactSection.jsx'
 
 export default function Home() {
-  const total = CONSOLES.reduce((acc, c) => acc + getGames(c.slug).length, 0)
+  const total = totalCount()
 
   return (
     <>
@@ -36,14 +36,20 @@ export default function Home() {
 
         <ul className="consoles__grid">
           {CONSOLES.map((c, i) => {
-            const games = getGames(c.slug)
+            const previas = getPreviews(c.slug)
+            const cantidad = getCount(c.slug)
             return (
               <li key={c.slug} style={{ '--accent': c.accent, '--i': i }}>
-                <Link to={`/consola/${c.slug}`} className="console">
+                <Link
+                  to={`/consola/${c.slug}`}
+                  className="console"
+                  onMouseEnter={() => prefetch(c.slug)}
+                  onFocus={() => prefetch(c.slug)}
+                >
                   <span className="console__glow" aria-hidden="true" />
 
                   <span className="console__preview" aria-hidden="true">
-                    {games.slice(0, 3).map((g, gi) => (
+                    {previas.map((g, gi) => (
                       <span key={g.id} className="console__mini" style={{ '--gi': gi }}>
                         <GameCover game={g} accent={c.accent} />
                       </span>
@@ -53,7 +59,7 @@ export default function Home() {
                   <span className="console__short">{c.short}</span>
                   <span className="console__name">{c.name}</span>
                   <span className="console__tagline">{c.tagline}</span>
-                  <span className="console__count">{games.length} juegos</span>
+                  <span className="console__count">{cantidad} juegos</span>
                 </Link>
               </li>
             )

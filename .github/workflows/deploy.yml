@@ -43,6 +43,24 @@ jobs:
       - name: Test Wikipedia match filter
         run: python tools/test_wiki_filter.py
 
+      - name: Test catalog title cleaning
+        run: python tools/test_titles.py
+
+      - name: Test search, filters and sorting
+        run: node tools/test_catalog.mjs
+
+      - name: Test vote logic
+        run: node tools/test_votes.mjs
+
+      - name: Test votes API
+        run: node tools/test_votes_api.mjs
+
+      - name: Check catalog file format
+        run: python tools/check_format.py
+
+      - name: Check hidden characters
+        run: python tools/find_line_separators.py
+
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

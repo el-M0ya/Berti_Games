@@ -56,7 +56,7 @@
 }
 
 /* ==========================================================================
-   Filtros
+   Filtros basicos
    ========================================================================== */
 
 .filters {
@@ -86,7 +86,7 @@
 }
 
 .chip.is-active {
-  color: #fff;
+  color: #08090e;
   background: var(--accent);
   border-color: var(--accent);
 }
@@ -101,6 +101,19 @@
 
 .chip:not(.is-active) .chip__count {
   background: rgba(255, 255, 255, 0.08);
+}
+
+/* Solo para lectores de pantalla: el texto que no se ve. */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 .empty {

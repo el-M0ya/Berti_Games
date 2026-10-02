@@ -5,7 +5,10 @@
   "type": "module",
   "description": "Catalogo de juegos de Berti Games",
   "scripts": {
+    "data": "python tools/normalize_catalog.py && python tools/split_catalog.py",
+    "predev": "npm run data",
     "dev": "vite",
+    "prebuild": "npm run data",
     "build": "vite build",
     "preview": "vite preview"
   },

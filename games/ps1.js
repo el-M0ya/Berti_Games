@@ -6,7 +6,7 @@ export const PS1_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/32d/32def4e55e47026d18b5f525991b5fe3.jpg',
     players: ['1 jugador'],
     genre: 'Adventure, Indie',
-    description: 'A lost colony on a distant planet.  An outpost of humanity, haunted by memories of madness and conspiracy.  A station crew no longer responding to communications.  Concerned about the safety of their investment, Human Resources Specialist, Elizabeth Woolgather is dispatched by the ‘Corporation...',
+    description: 'A lost colony on a distant planet. An outpost of humanity, haunted by memories of madness and conspiracy. A station crew no longer responding to communications. Concerned about the safety of their investment, Human Resources Specialist, Elizabeth Woolgather is dispatched by the ‘Corporation...',
   },
   {
     id: '007-coleccion',
@@ -492,7 +492,7 @@ export const PS1_GAMES = [
     cover: 'https://media.rawg.io/media/games/753/753a1842ec19b8b5f62c13fb3b3b6519.jpg',
     players: ['1 jugador', '2 jugadores'],
     genre: 'Action',
-    description: 'Naval combat game feature a 1 and 2 player game. The 1 player game is split between either Arcade or Campaign mode. The 2 player game is split between Arcade or War Games mode.  The Campaign mode features 50 missions with objectives such as eliminating enemy supply convoys or carrying out a ful...',
+    description: 'Naval combat game feature a 1 and 2 player game. The 1 player game is split between either Arcade or Campaign mode. The 2 player game is split between Arcade or War Games mode. The Campaign mode features 50 missions with objectives such as eliminating enemy supply convoys or carrying out a ful...',
   },
   {
     id: 'beach-volleyball',
@@ -519,7 +519,10 @@ export const PS1_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/32d/32def4e55e47026d18b5f525991b5fe3.jpg',
     players: ['1 jugador'],
     genre: 'Adventure, Indie',
-    description: 'A lost colony on a distant planet.  An outpost of humanity, haunted by memories of madness and conspiracy.  A station crew no longer responding to communications.  Concerned about the safety of their investment, Human Resources Specialist, Elizabeth Woolgather is dispatched by the ‘Corporation...',
+    description: 'A lost colony on a distant planet. 
+ An outpost of humanity, haunted by memories of madness and conspiracy. 
+ A station crew no longer responding to communications. 
+ Concerned about the safety of their investment, Human Resources Specialist, Elizabeth Woolgather is dispatched by the ‘Corporation...',
   },
   {
     id: 'big-01-bass-2',
@@ -618,7 +621,9 @@ export const PS1_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/10f/10f559cecc70ecdb3a713ca6e7ba4842.jpg',
     players: ['1 jugador', '2 jugadores', '4 jugadores'],
     genre: 'Fighting',
-    description: 'Purchase this PS one® Classic and play it on both your PS3™ and PSP® (PlayStation®Portable) systems!  Classic fighting game featuring a lineup of 8 deadly fighters with a dangerous secret - they all transform into ferocious half-human beasts! Take on all challengers and battle your way to the t...',
+    description: 'Purchase this PS one® Classic and play it on both your PS3™ and PSP® (PlayStation®Portable) systems!
+ 
+ Classic fighting game featuring a lineup of 8 deadly fighters with a dangerous secret - they all transform into ferocious half-human beasts! Take on all challengers and battle your way to the t...',
   },
   {
     id: 'bloody-roar-2',
@@ -627,7 +632,12 @@ export const PS1_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/72d/72ddb7c07c57e47ada4cb70a74b2d9f5.jpg',
     players: ['1 jugador', '2 jugadores', '4 jugadores'],
     genre: 'Fighting',
-    description: 'Purchase this PS one® Classic and play it on both your PS3™ and PSP® (PlayStation®Portable) systems!   Transform and do battle as a human-animal hybrid in this classic 3D fighting game!  Put your strength to the test and fight your way to the top!  Download this PS one® Classic today!    Tra...',
+    description: 'Purchase this PS one® Classic and play it on both your PS3™ and PSP® (PlayStation®Portable) systems!  
+ Transform and do battle as a human-animal hybrid in this classic 3D fighting game!  Put your strength to the test and fight your way to the top!
+ 
+ Download this PS one® Classic today! 
+  
+ Tra...',
   },
   {
     id: 'bluster-broos',
@@ -672,7 +682,9 @@ export const PS1_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/64d/64da8d041a5d65a0de42c6c92b81b3bf.jpg',
     players: ['1 jugador'],
     genre: 'Adventure',
-    description: 'BREAK OUTBreak Out is a first person adventure game, where you need to pay attention to every detail.Your objective is to get out of the maze as fast as you can, in any way possible... A deep secret awaits those that can beat the fastest time. INSTRUCTIONS  WASD - move  mouse - look  E - intera...',
+    description: 'BREAK OUTBreak Out is a first person adventure game, where you need to pay attention to every detail.Your objective is to get out of the maze as fast as you can, in any way possible... A deep secret awaits those that can beat the fastest time. INSTRUCTIONS  WASD - move
+  mouse - look
+  E - intera...',
   },
   {
     id: 'breath-of-fire',
@@ -816,7 +828,10 @@ export const PS1_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/32d/32def4e55e47026d18b5f525991b5fe3.jpg',
     players: ['1 jugador'],
     genre: 'Adventure, Indie',
-    description: 'A lost colony on a distant planet.  An outpost of humanity, haunted by memories of madness and conspiracy.  A station crew no longer responding to communications.  Concerned about the safety of their investment, Human Resources Specialist, Elizabeth Woolgather is dispatched by the ‘Corporation...',
+    description: 'A lost colony on a distant planet. 
+ An outpost of humanity, haunted by memories of madness and conspiracy. 
+ A station crew no longer responding to communications. 
+ Concerned about the safety of their investment, Human Resources Specialist, Elizabeth Woolgather is dispatched by the ‘Corporation...',
   },
   {
     id: 'casino-en-las-vegas',
@@ -1140,7 +1155,9 @@ export const PS1_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/e6f/e6f771a2f80fc892cf91aa631b03f548.jpg',
     players: ['1 jugador'],
     genre: 'Indie',
-    description: 'The world has ended, Demons have risen to conquer the uninhabited and flourishing nature outside.  It\'s your turn, with your unknown identity, to find your path for a new beginning.   Reset 1-1 is a good ol\' fashioned frantic action RPG platformer! Battle your way through demon hordes and gigan...',
+    description: 'The world has ended, Demons have risen to conquer the uninhabited and flourishing nature outside. 
+ It\'s your turn, with your unknown identity, to find your path for a new beginning.  
+ Reset 1-1 is a good ol\' fashioned frantic action RPG platformer! Battle your way through demon hordes and gigan...',
   },
   {
     id: 'cripta-asesina',
@@ -1536,7 +1553,11 @@ export const PS1_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/a64/a646efdbc97850fc09c5d82a012f1da6.jpg',
     players: ['1 jugador'],
     genre: 'Adventure, RPG',
-    description: 'EL DORADO V1.0  After finding El Dorado, a group of explorers must escape it now. While doing so, they\'ll understand why the City of Gold was never found before...   Made for the Godot Wild Jam #46 Gameplay and controls:  The mouse is used for everything. While battling, time your LMB presses...',
+    description: 'EL DORADO
+ V1.0
+  After finding El Dorado, a group of explorers must escape it now. While doing so, they\'ll understand why the City of Gold was never found before...   Made for the Godot Wild Jam #46
+ Gameplay and controls:
+  The mouse is used for everything. While battling, time your LMB presses...',
   },
   {
     id: 'el-planeta-de-los-simios',
@@ -2121,7 +2142,11 @@ export const PS1_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/01b/01bdfa253bdea9e8df322c8a7ef93539.jpg',
     players: ['1 jugador'],
     genre: 'Action, RPG, Indie',
-    description: 'It is an Action RPG.  If you like this kind of RPG, you may enjoy this game.  Main concept of this game is gaining experience and leveling up in order to destroy the final boss. Critical point is that you should do your best during the game because this will facilitate the final fight!  Featu...',
+    description: 'It is an Action RPG. 
+ If you like this kind of RPG, you may enjoy this game. 
+ Main concept of this game is gaining experience and leveling up in order to destroy the final boss.
+ Critical point is that you should do your best during the game because this will facilitate the final fight! 
+ Featu...',
   },
   {
     id: 'guequido',
@@ -2274,7 +2299,8 @@ export const PS1_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/8d7/8d7ac464113336672975cf604185dff4.jpg',
     players: ['1 jugador'],
     genre: 'Adventure, Puzzle',
-    description: 'Hello everyone! The goal is to escape  before the entire forest burns down, or your escape is blocked. It is a procedural generation game, so each time you play it\'s a different experience!The Algorithms used: Poisson-Disk Sampling to place the treesVoronoi Diagram to create points and complex p...',
+    description: 'Hello everyone!
+ The goal is to escape  before the entire forest burns down, or your escape is blocked. It is a procedural generation game, so each time you play it\'s a different experience!The Algorithms used: Poisson-Disk Sampling to place the treesVoronoi Diagram to create points and complex p...',
   },
   {
     id: 'hidro-thunder',
@@ -2634,7 +2660,8 @@ export const PS1_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/927/927442bb3c48b71cac5b4c8f5b4ae6eb.jpg',
     players: ['1 jugador'],
     genre: 'Adventure, Indie',
-    description: 'Fermin Games, a new spanish company of videogames, now presents its opera prima: "Symploke: Legend of Gustavo Bueno", a classic point-and-click adventure game which is also divided into several chapters.  Put in the mixer "The secret of Monkey Island" and the daily life of a mad Spanish Universi...',
+    description: 'Fermin Games, a new spanish company of videogames, now presents its opera prima: "Symploke: Legend of Gustavo Bueno", a classic point-and-click adventure game which is also divided into several chapters. 
+ Put in the mixer "The secret of Monkey Island" and the daily life of a mad Spanish Universi...',
   },
   {
     id: 'lilo-y-estich',
@@ -2751,7 +2778,10 @@ export const PS1_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/000/000cca307c7c814c81f5e57aa5088b4f.jpeg',
     players: ['1 jugador'],
     genre: 'Adventure, RPG, Indie',
-    description: 'Some suspected that Mars once harbored life.  There was a reason that it wasn\'t ever found.  Mines of Mars is a procedural atmospheric mining game that is inspired by games like Metroid and Motherload.  It is also a story based adventure game with dark secrets, great weapons, tons of different...',
+    description: 'Some suspected that Mars once harbored life. 
+ There was a reason that it wasn\'t ever found. 
+ Mines of Mars is a procedural atmospheric mining game that is inspired by games like Metroid and Motherload. 
+ It is also a story based adventure game with dark secrets, great weapons, tons of different...',
   },
   {
     id: 'marvel-contra-concom',
@@ -2841,7 +2871,11 @@ export const PS1_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/3bb/3bba0a7c2ef50ff163798cd01a4c7a1a.jpg',
     players: ['1 jugador'],
     genre: 'Action, Adventure, RPG, Indie',
-    description: '- The continuation of (un)popular game Princess.Loot.Pixel.Again  - Lots of fun without any hints of seriousness  - A procedurally generated adventure  - x2 is much more artefacts, items,locations, enemies, bosses, secrets and traps  - The original graphic style of pixel-comix (according to t...',
+    description: '- The continuation of (un)popular game Princess.Loot.Pixel.Again 
+ - Lots of fun without any hints of seriousness 
+ - A procedurally generated adventure 
+ - x2 is much more artefacts, items,locations, enemies, bosses, secrets and traps 
+ - The original graphic style of pixel-comix (according to t...',
   },
   {
     id: 'megaman-x4',
@@ -2931,7 +2965,8 @@ export const PS1_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/d58/d58563f2943a8a248e645f8a18568ca5.jpg',
     players: ['1 jugador'],
     genre: 'Action, Arcade, Casual, Indie, Puzzle',
-    description: 'A joyful, casual puzzle game that will tease both your wits and your memory!  You\'ve always dreamt of flying. Roaming high in the clouds, free from all worries. Just gliding through air like a bird. Unfortunately, you were born as a millipede, and your best chance of launching to the sky is prob...',
+    description: 'A joyful, casual puzzle game that will tease both your wits and your memory! 
+ You\'ve always dreamt of flying. Roaming high in the clouds, free from all worries. Just gliding through air like a bird. Unfortunately, you were born as a millipede, and your best chance of launching to the sky is prob...',
   },
   {
     id: 'mision-imposible-esp',
@@ -3489,7 +3524,9 @@ export const PS1_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/db0/db020ea37b41fca2f88000c0a99e8abe.jpg',
     players: ['1 jugador', '2 jugadores', '4 jugadores'],
     genre: 'Action',
-    description: 'Rumble Fighter is a free-to-play fighting MMO game with real mixed martial arts and fast-paced beat-em-up action! Brawl with your friends and train to become the top Rumble Fighter!   Story  A long time ago, the Dark Lord broke the peace treaty with the Gods, and commanded his dark forces to co...',
+    description: 'Rumble Fighter is a free-to-play fighting MMO game with real mixed martial arts and fast-paced beat-em-up action! Brawl with your friends and train to become the top Rumble Fighter!  
+ Story 
+ A long time ago, the Dark Lord broke the peace treaty with the Gods, and commanded his dark forces to co...',
   },
   {
     id: 'point-blank-3',
@@ -3552,7 +3589,10 @@ export const PS1_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/32d/32def4e55e47026d18b5f525991b5fe3.jpg',
     players: ['1 jugador'],
     genre: 'Adventure, Indie',
-    description: 'A lost colony on a distant planet.  An outpost of humanity, haunted by memories of madness and conspiracy.  A station crew no longer responding to communications.  Concerned about the safety of their investment, Human Resources Specialist, Elizabeth Woolgather is dispatched by the ‘Corporation...',
+    description: 'A lost colony on a distant planet. 
+ An outpost of humanity, haunted by memories of madness and conspiracy. 
+ A station crew no longer responding to communications. 
+ Concerned about the safety of their investment, Human Resources Specialist, Elizabeth Woolgather is dispatched by the ‘Corporation...',
   },
   {
     id: 'power-rangers',
@@ -3885,7 +3925,8 @@ export const PS1_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/69e/69ef9a0564aa34362f684365fe833fbc.jpg',
     players: ['1 jugador'],
     genre: 'Action, Indie',
-    description: 'Hometown of the Void Walker was attacked by crazy cultists, worshipping ancient gods, who he sworn to destroy. Now he must defend his hometown from this invasion and the whole Earth with it!  Putrefaction 2: Rumble in the hometown is a stand-alone content pack for Putrefaction 2: Void Walker fea...',
+    description: 'Hometown of the Void Walker was attacked by crazy cultists, worshipping ancient gods, who he sworn to destroy. Now he must defend his hometown from this invasion and the whole Earth with it! 
+ Putrefaction 2: Rumble in the hometown is a stand-alone content pack for Putrefaction 2: Void Walker fea...',
   },
   {
     id: 'saga-frontier',
@@ -4074,7 +4115,11 @@ export const PS1_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/d65/d65af01d7ec14b01c572fb197a8614c7.jpg',
     players: ['1 jugador'],
     genre: 'Adventure',
-    description: 'Episode 2 of an epic 5 game saga.  After facing a pillaging primate from outer space in the series premiere, Sam &amp; Max cross paths with even stranger characters in this episode -- their own great-grandparents!    In Episode 2 of the series, our heroes cross paths with an even more bizarre...',
+    description: 'Episode 2 of an epic 5 game saga.
+ 
+ After facing a pillaging primate from outer space in the series premiere, Sam &amp; Max cross paths with even stranger characters in this episode -- their own great-grandparents!  
+ 
+ In Episode 2 of the series, our heroes cross paths with an even more bizarre...',
   },
   {
     id: 'small-soldiers',
@@ -4191,7 +4236,8 @@ export const PS1_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/03f/03f51cd73ec1b29f8ae8772cea7d811b.jpg',
     players: ['1 jugador'],
     genre: 'Educational',
-    description: 'Disponível em Fevereiro de 2023 Dr.a Sound é um jogo voltado para o público cego onde a protagonista possui super audição que usará para resolver problemas de uma cidade que sofreu um terremoto',
+    description: 'Disponível em Fevereiro de 2023
+ Dr.a Sound é um jogo voltado para o público cego onde a protagonista possui super audição que usará para resolver problemas de uma cidade que sofreu um terremoto',
   },
   {
     id: 'spiderman',
@@ -4398,7 +4444,8 @@ export const PS1_GAMES = [
     cover: 'https://media.rawg.io/media/games/766/7661896fff0c18cc7c75ad1bfe18d6a0.jpg',
     players: ['1 jugador'],
     genre: 'Simulation',
-    description: 'Introducing a whole new gaming experience... jvc\'s submarine commander puts you in control of a nuclear powered submarine and teaches you the stealth and tactics needed for anti submarine warfare. Using hi-tech weapons, sonar, radar and periscope you must defeat adversaries, control sea communic...',
+    description: 'Introducing a whole new gaming experience...
+ jvc\'s submarine commander puts you in control of a nuclear powered submarine and teaches you the stealth and tactics needed for anti submarine warfare. Using hi-tech weapons, sonar, radar and periscope you must defeat adversaries, control sea communic...',
   },
   {
     id: 'super-bin-world-champion',
@@ -4965,7 +5012,8 @@ export const PS1_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/99d/99d6424d054347a0b845aa7f87c08dff.jpg',
     players: ['1 jugador'],
     genre: 'Action, Simulation, Racing, Arcade',
-    description: 'Speed through a set of tunnels on a mission to destroy your enemy\'s ultimate weapon.   Your mission is to destroy the ultimate weapon of your enemy. This involves travelling through a set of precarious tunnels in your high-tech hover-craft at breakneck speed, avoiding or destroying enemy vehicle...',
+    description: 'Speed through a set of tunnels on a mission to destroy your enemy\'s ultimate weapon.  
+ Your mission is to destroy the ultimate weapon of your enemy. This involves travelling through a set of precarious tunnels in your high-tech hover-craft at breakneck speed, avoiding or destroying enemy vehicle...',
   },
   {
     id: 'tonka-space-station',
@@ -5100,7 +5148,8 @@ export const PS1_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/99d/99d6424d054347a0b845aa7f87c08dff.jpg',
     players: ['1 jugador'],
     genre: 'Action, Simulation, Racing, Arcade',
-    description: 'Speed through a set of tunnels on a mission to destroy your enemy\'s ultimate weapon.   Your mission is to destroy the ultimate weapon of your enemy. This involves travelling through a set of precarious tunnels in your high-tech hover-craft at breakneck speed, avoiding or destroying enemy vehicle...',
+    description: 'Speed through a set of tunnels on a mission to destroy your enemy\'s ultimate weapon.  
+ Your mission is to destroy the ultimate weapon of your enemy. This involves travelling through a set of precarious tunnels in your high-tech hover-craft at breakneck speed, avoiding or destroying enemy vehicle...',
   },
   {
     id: 'turbo-pro-racing',
@@ -5244,7 +5293,9 @@ export const PS1_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/1e4/1e4a2ee742c06392b368082431414cd2.jpg',
     players: ['1 jugador'],
     genre: 'Simulation, Sports, Indie',
-    description: 'There is no feeling greater than stepping up to the plate, with the crowd cheering, and crushing the pitch deep into left field!  Now you can live the experience with  VR Baseball, the premier baseball game for Virtual Reality!   With over 40 bats to choose from, stepping up to the plate and hi...',
+    description: 'There is no feeling greater than stepping up to the plate, with the crowd cheering, and crushing the pitch deep into left field!  Now you can live the experience with 
+ VR Baseball, the premier baseball game for Virtual Reality!  
+ With over 40 bats to choose from, stepping up to the plate and hi...',
   },
   {
     id: 'vs-sonyc',

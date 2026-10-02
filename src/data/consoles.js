@@ -4,6 +4,16 @@
  */
 export const CONSOLES = [
   {
+    slug: 'ps1',
+    name: 'PlayStation',
+    short: 'PS1',
+    brand: 'Sony',
+    year: 1994,
+    accent: '#b07cff',
+    accentSoft: 'rgba(176, 124, 255, 0.18)',
+    tagline: 'La consola que abrio la era de los 3D en casa.',
+  },
+  {
     slug: 'ps2',
     name: 'PlayStation 2',
     short: 'PS2',

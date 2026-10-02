@@ -1,0 +1,20 @@
+name = "berti-games"
+compatibility_date = "2024-09-23"
+pages_build_output_dir = "dist"
+
+# Base de datos de los votos. Se crea con:
+#   npx wrangler d1 create berti-games-votos
+# y se pega aqui el database_id que devuelve.
+[[d1_databases]]
+binding = "VOTOS"
+database_name = "berti-games-votos"
+database_id = "PEGAR_AQUI_EL_DATABASE_ID"
+
+# Dominio que tiene permiso para voting. Dejalo vacio en desarrollo.
+# En produccion:  SITIO_ORIGIN = "https://tu-usuario.github.io"
+[vars]
+SITIO_ORIGIN = ""
+
+# Para desarrollo local con la API real:
+#   npx wrangler pages dev dist
+# Requiere Node 18 o superior.

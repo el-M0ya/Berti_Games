@@ -17,11 +17,22 @@ export default function GameCard({ game, accent, onOpen, index = 0 }) {
 
       <span className="card__shade" />
 
+      {game.favorite ? (
+        <span className="card__fav" title="Juego destacado">
+          <span aria-hidden="true">&#9733;</span>
+          <span className="sr-only">Destacado</span>
+        </span>
+      ) : null}
+
       {game.year ? <span className="card__year">{game.year}</span> : null}
 
-      {game.players?.includes('Multijugador') ? (
-        <span className="card__badge" title="Multijugador">
-          2+
+      {game.players?.includes('4 jugadores') ? (
+        <span className="card__badge" title="4 jugadores">
+          4
+        </span>
+      ) : game.players?.includes('2 jugadores') ? (
+        <span className="card__badge" title="2 jugadores">
+          2
         </span>
       ) : null}
 

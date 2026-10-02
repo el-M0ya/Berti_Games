@@ -213,7 +213,8 @@ export const PS5_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/d32/d329b98212a68eb99611e477cd9efc56.jpg',
     players: ['1 jugador'],
     genre: 'Action, Adventure, RPG',
-    description: 'Originally released in 1994, Little Big Adventure (also known as \'Relentless: Twinsen\'s Adventure\') is an action-adventure RPG designed by Frédérick Raynal.  You play as Twinsen, a young hero living on Citadel Island on a world under the heel of the dictator Dr. FunFrock. You’ve been having stra...',
+    description: 'Originally released in 1994, Little Big Adventure (also known as \'Relentless: Twinsen\'s Adventure\') is an action-adventure RPG designed by Frédérick Raynal. 
+ You play as Twinsen, a young hero living on Citadel Island on a world under the heel of the dictator Dr. FunFrock. You’ve been having stra...',
   },
   {
     id: 'octopath-traveler-0-digital-deluxe-edition',
@@ -618,7 +619,7 @@ export const PS5_GAMES = [
     cover: 'https://media.rawg.io/media/games/d84/d842fec4ae7bbd782d330f678c980f7f.jpg',
     players: ['1 jugador'],
     genre: 'Action, Adventure, RPG',
-    description: 'Kingdom of Bohemia, Early 15th Century: chaos has befallen the kingdom.  As invaders pillage this ungoverned land, sowing fear and terror, Henry of Skalitz seeks revenge for his murdered family. Now a trusted member of the rightful king’s allies, Henry is sent to escort Sir Hans Capon on a diplom...',
+    description: 'Kingdom of Bohemia, Early 15th Century: chaos has befallen the kingdom. As invaders pillage this ungoverned land, sowing fear and terror, Henry of Skalitz seeks revenge for his murdered family. Now a trusted member of the rightful king’s allies, Henry is sent to escort Sir Hans Capon on a diplom...',
   },
   {
     id: 'train-sim-world-5',
@@ -681,7 +682,8 @@ export const PS5_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/098/0980ef4a7af2c3cc368ae9bfad3fc112.jpg',
     players: ['1 jugador', '2 jugadores', '4 jugadores'],
     genre: 'Simulation, Sports, Racing',
-    description: 'Become the star of the 2018 MotoGP™ season! Pursue your career as a professional rider starting from the Red Bull MotoGP™ Rookies Cup up to the Premier class of the MotoGP™. Race with all the riders of the MotoGP™ on 19 official tracks, including the new Buriram International Circuit in Thailand...',
+    description: 'Become the star of the 2018 MotoGP™ season! Pursue your career as a professional rider starting from the Red Bull MotoGP™ Rookies Cup up to the Premier class of the MotoGP™.
+ Race with all the riders of the MotoGP™ on 19 official tracks, including the new Buriram International Circuit in Thailand...',
   },
   {
     id: 'trinity-trigger',
@@ -915,7 +917,9 @@ export const PS5_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/b20/b20e8448936137b06bf47ae49cae5d3e.jpg',
     players: ['1 jugador', '2 jugadores', '4 jugadores'],
     genre: 'Simulation',
-    description: 'Farming Simulator 25 invites you to join the rewarding farm life. Whether you build your legacy single-handedly or cooperatively in multiplayer - it’s your farm, you decide!  This Farm is Your Farm! Build a farm along winding rivers and historic grain elevators in North America, surrounded by p...',
+    description: 'Farming Simulator 25 invites you to join the rewarding farm life. Whether you build your legacy single-handedly or cooperatively in multiplayer - it’s your farm, you decide! 
+ This Farm is Your Farm!
+ Build a farm along winding rivers and historic grain elevators in North America, surrounded by p...',
   },
   {
     id: 'yakuza-0-director-s-cut',
@@ -996,7 +1000,9 @@ export const PS5_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/01c/01cf3471856fb5aefab27aac442c664b.jpg',
     players: ['1 jugador', '2 jugadores', '4 jugadores'],
     genre: 'Casual',
-    description: '• Celebrating 40 captivating years of Tetris®! • Includes more than 15 playable classic Tetris games, and an all-new Tetris game – Tetris Time Warp.  Unrivaled after four decades, Tetris Forever celebrates the original, genre-inspiring puzzle game that escaped from behind the Iron Curtain, onto...',
+    description: '• Celebrating 40 captivating years of Tetris®!
+ • Includes more than 15 playable classic Tetris games, and an all-new Tetris game – Tetris Time Warp. 
+ Unrivaled after four decades, Tetris Forever celebrates the original, genre-inspiring puzzle game that escaped from behind the Iron Curtain, onto...',
   },
   {
     id: 'construction-simulator-gold-edition',
@@ -1158,7 +1164,12 @@ export const PS5_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/867/867f4c26d90a8e1bc80b221fe2e6121a.jpg',
     players: ['1 jugador'],
     genre: 'Shooter',
-    description: 'Description   How far are you ready to go to save your family and stay alive? How long does it takes to escape the city full of zombies...?   Fight zombiesBuy new weaponsFight even more zombiesTry to survive as much as you canScavenge streetsRepair your car and escape the city  Notice: The g...',
+    description: 'Description  
+ How far are you ready to go to save your family and stay alive?
+ How long does it takes to escape the city full of zombies...?
+   Fight zombiesBuy new weaponsFight even more zombiesTry to survive as much as you canScavenge streetsRepair your car and escape the city 
+ Notice:
+ The g...',
   },
   {
     id: 'redout-ii',
@@ -1824,7 +1835,8 @@ export const PS5_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/fdc/fdcb150f501d79e0ff594469813dfb1d.jpg',
     players: ['1 jugador', '2 jugadores', '4 jugadores'],
     genre: 'Action, Fighting',
-    description: 'Recruit…Train…Fight! The All Valley Awaits!  Eagle Fang, Cobra Kia, Miyagi-do – Which is your dojo? Your in-game choice is only the beginning of your journey.  You must then recruit the most powerful team to join your dojo, master your fighting style, and battle your way towards solidifying your...',
+    description: 'Recruit…Train…Fight! The All Valley Awaits! 
+ Eagle Fang, Cobra Kia, Miyagi-do – Which is your dojo? Your in-game choice is only the beginning of your journey.  You must then recruit the most powerful team to join your dojo, master your fighting style, and battle your way towards solidifying your...',
   },
   {
     id: 'f1-2021',
@@ -2175,7 +2187,9 @@ export const PS5_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/53f/53fca416d7816c5bbb3c597ad8e4fffd.jpg',
     players: ['1 jugador', '2 jugadores', '4 jugadores'],
     genre: 'Action, Adventure, RPG, Indie',
-    description: 'The Order of Things... Disrupted "Many years in the future, humanity looks upward in despair at plants, now standing atop the food chain. How could they have been so arrogant..." Only when plants began sprouting arms and legs and developing self-awareness did humanity truly begin to understand ...',
+    description: 'The Order of Things... Disrupted
+ "Many years in the future, humanity looks upward in despair at plants, now standing atop the food chain. How could they have been so arrogant..."
+ Only when plants began sprouting arms and legs and developing self-awareness did humanity truly begin to understand ...',
   },
   {
     id: 'soul-hackers-2',
@@ -2364,7 +2378,10 @@ export const PS5_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/046/046b0a325b1f0acab900648e32528824.jpg',
     players: ['1 jugador'],
     genre: 'Action',
-    description: 'First appearing in arcades in 1981, the masterpiece GALAGA finally comes to Steam! Move the fighter left and right, and destroy the waves of incoming aliens in this space-age shooter. Destroy all the enemies to advance to the next stage! Retrieve a captured fighter and combine into a Dual Figh...',
+    description: 'First appearing in arcades in 1981, the masterpiece GALAGA finally comes to Steam!
+ Move the fighter left and right, and destroy the waves of incoming aliens in this space-age shooter.
+ Destroy all the enemies to advance to the next stage!
+ Retrieve a captured fighter and combine into a Dual Figh...',
   },
   {
     id: 'banishers-ghosts-of-new-eden',
@@ -2787,7 +2804,9 @@ export const PS5_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/b9b/b9b59d8b36f469fd4ae90f484489df4b.jpg',
     players: ['1 jugador', '2 jugadores', '4 jugadores'],
     genre: 'Action, Adventure, RPG, Casual, Massively Multiplayer',
-    description: 'The latest title of the party battle games series SUPER BOMBERMAN R! With new adventures and game modes, it has the largest content volume in the series\' history!  The game features not only offline battles that can be played with family and friends, but also online battles that connect players...',
+    description: 'The latest title of the party battle games series SUPER BOMBERMAN R!
+ With new adventures and game modes, it has the largest content volume in the series\' history! 
+ The game features not only offline battles that can be played with family and friends, but also online battles that connect players...',
   },
   {
     id: 'selfloss',
@@ -2940,7 +2959,8 @@ export const PS5_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/229/229d7a7c5aa4129d4b43d85ebafe8f14.jpg',
     players: ['1 jugador'],
     genre: 'Simulation',
-    description: 'The Story Descending suddenly on the world, the macabre Mort armies destroy nation after nation, leaving humanity decimated in the wake of their overwhelming terror and might. Amid the despair, a small, localized contingent crosses swords with the Mort—the Ashen Hawk Brigade. A cunning band that...',
+    description: 'The Story
+ Descending suddenly on the world, the macabre Mort armies destroy nation after nation, leaving humanity decimated in the wake of their overwhelming terror and might. Amid the despair, a small, localized contingent crosses swords with the Mort—the Ashen Hawk Brigade. A cunning band that...',
   },
   {
     id: 'two-point-campus',
@@ -3273,7 +3293,8 @@ export const PS5_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/b12/b12bb38a78a4c409016f1a36e34d7e5a.jpg',
     players: ['1 jugador', '2 jugadores', '4 jugadores'],
     genre: 'Action, Indie',
-    description: 'Get ready for an adventure like no other as rookie magicians Bobby and Penny find themselves stuck between dimensions. As they journey through a variety of enchanting worlds, it’s up to you to help them fight their way back to their own dimension and reclaim the Magic Book.   With catchy music, ...',
+    description: 'Get ready for an adventure like no other as rookie magicians Bobby and Penny find themselves stuck between dimensions. As they journey through a variety of enchanting worlds, it’s up to you to help them fight their way back to their own dimension and reclaim the Magic Book.  
+ With catchy music, ...',
   },
   {
     id: 'lost-epic',
@@ -4038,7 +4059,10 @@ export const PS5_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/de4/de4ecdfed178771a01faa12d58b75276.jpg',
     players: ['1 jugador', '2 jugadores', '4 jugadores'],
     genre: 'Racing',
-    description: 'The NASCAR Beasts are Unleashed!   The thrill of NASCAR meets the rush of arcade racing in a new game that puts you in the driver’s seat of a completely new NASCAR experience with re-imagined, iconic racetracks in unmatched high-speed, wheel-to-wheel action!   Key Game Features: - Real-World N...',
+    description: 'The NASCAR Beasts are Unleashed!  
+ The thrill of NASCAR meets the rush of arcade racing in a new game that puts you in the driver’s seat of a completely new NASCAR experience with re-imagined, iconic racetracks in unmatched high-speed, wheel-to-wheel action!  
+ Key Game Features:
+ - Real-World N...',
   },
   {
     id: 'the-callisto-protocol',
@@ -4092,7 +4116,8 @@ export const PS5_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/29d/29d17a81c1dd44c0ec27024da78a91ea.jpg',
     players: ['1 jugador', '2 jugadores', '4 jugadores'],
     genre: 'Racing',
-    description: 'All-Star Cast, All-Star Fun!  An all-star cast of some of your favorite DreamWorks characters brings the fun and hilarity to high-speed kart racing action like never before! Race on 20 different DreamWorks-themed tracks, including Shrek’s Swamp, New York City Zoo from Madagascar, Isle of Berk, a...',
+    description: 'All-Star Cast, All-Star Fun! 
+ An all-star cast of some of your favorite DreamWorks characters brings the fun and hilarity to high-speed kart racing action like never before! Race on 20 different DreamWorks-themed tracks, including Shrek’s Swamp, New York City Zoo from Madagascar, Isle of Berk, a...',
   },
   {
     id: 'tony-hawk-s-pro-skater-1-2',
@@ -5523,7 +5548,8 @@ export const PS5_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/f7b/f7bf7af66e5e5b32931dc57173a1e560.jpg',
     players: ['1 jugador'],
     genre: 'Action, RPG',
-    description: 'In addition to the three action adventure games from the Castlevania series, Haunted Castle Revisited, an redesigned version of the very first Castlevania arcade game, makes its debut! And you can also play it in its original format! Experience the world of Castlevania like never before, with ne...',
+    description: 'In addition to the three action adventure games from the Castlevania series, Haunted Castle Revisited, an redesigned version of the very first Castlevania arcade game, makes its debut! And you can also play it in its original format!
+ Experience the world of Castlevania like never before, with ne...',
   },
   {
     id: 'lunar-lander-beyond',
@@ -6639,6 +6665,7 @@ export const PS5_GAMES = [
     cover: 'https://media.rawg.io/media/screenshots/0f3/0f30b2b98765c7060d41bb7a47ff5547.jpg',
     players: ['1 jugador'],
     genre: 'Variado',
-    description: 'Fight to save a doomed deep space colony starship infested with murderous clone printed mutations of the former crew.  Gather resources, upgrade your abilities and unlock an arsenal of weaponry on each run as you repeatedly head deeper and deeper into the decks of \'The Persistence\' to repair the...',
+    description: 'Fight to save a doomed deep space colony starship infested with murderous clone printed mutations of the former crew. 
+ Gather resources, upgrade your abilities and unlock an arsenal of weaponry on each run as you repeatedly head deeper and deeper into the decks of \'The Persistence\' to repair the...',
   },
 ];

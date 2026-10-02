@@ -3,6 +3,9 @@ dist
 dist-ssr
 *.local
 .DS_Store
+
+# Los catalogos partidos se regeneran en cada build (npm run data).
+src/data/generated/
 .vscode/*
 !.vscode/extensions.json
 .idea

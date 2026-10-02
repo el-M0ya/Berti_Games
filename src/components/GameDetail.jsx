@@ -2,6 +2,7 @@ import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react
 import { createPortal } from 'react-dom'
 import GameCover from './GameCover.jsx'
 import { computeGeometry, panelMaxHeight, panelMargin, PANEL_MAX_W } from './detailGeometry.js'
+import { myVote, score } from '../lib/votes.js'
 
 /**
  * Ficha de un juego.
@@ -13,7 +14,15 @@ import { computeGeometry, panelMaxHeight, panelMargin, PANEL_MAX_W } from './det
  *
  * Las medidas salen de `detailGeometry.js`.
  */
-export default function GameDetail({ game, accent, originRect, onClose }) {
+export default function GameDetail({
+  game,
+  accent,
+  originRect,
+  onClose,
+  votos = {},
+  votosOnline = false,
+  onVotar = () => {},
+}) {
   const [open, setOpen] = useState(false)
   const [geo, setGeo] = useState(() => computeGeometry(window.innerWidth, window.innerHeight, originRect))
   const panelRef = useRef(null)
@@ -133,7 +142,11 @@ export default function GameDetail({ game, accent, originRect, onClose }) {
                 {p}
               </span>
             ))}
-            {game.genre ? <span className="tag tag--genre">{game.genre}</span> : null}
+            {game.genres?.slice(0, 2).map((g) => (
+              <span key={g} className="tag tag--genre">
+                {g}
+              </span>
+            ))}
           </div>
 
           <button className="detail__close" onClick={onClose} aria-label="Cerrar ficha">
@@ -147,6 +160,32 @@ export default function GameDetail({ game, accent, originRect, onClose }) {
         <p className="detail__desc">{game.description}</p>
 
         <div className="detail__spacer" />
+
+        <div className="detail__votos">
+          <span className="detail__votos-label">Te gusto este juego?</span>
+          <div className="detail__votos-botones">
+            <button
+              className={`voto${myVote(votos, game.id) === 1 ? ' is-on' : ''}`}
+              onClick={() => onVotar(game.id, 1)}
+              aria-pressed={myVote(votos, game.id) === 1}
+            >
+              <span aria-hidden="true">Me gusta</span>
+            </button>
+            <span className="voto__cuenta">{score(votos, game.id)}</span>
+            <button
+              className={`voto voto--no${myVote(votos, game.id) === -1 ? ' is-on' : ''}`}
+              onClick={() => onVotar(game.id, -1)}
+              aria-pressed={myVote(votos, game.id) === -1}
+            >
+              <span aria-hidden="true">No me gusta</span>
+            </button>
+          </div>
+          <p className="detail__votos-nota">
+            {votosOnline
+              ? 'Tu voto se guarda y lo ven todos los visitantes.'
+              : 'Sin conexion con el servidor: tu voto se guarda solo en este navegador.'}
+          </p>
+        </div>
 
         <a
           className="detail__contact"

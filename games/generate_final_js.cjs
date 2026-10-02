@@ -1,5 +1,15 @@
 const fs = require('fs');
 
+/*
+ * OJO: este script genera los .js con el esquema viejo (genre como texto).
+ * Despues hay que correr, desde la raiz del proyecto:
+ *
+ *     python tools/normalize_catalog.py
+ *
+ * Eso traduce los generos, corrige los jugadores, agrega el campo
+ * `favorite` y limpia los titulos. Va SIEMPRE al final de la cadena.
+ */
+
 const allGames = JSON.parse(fs.readFileSync('all_games_consolidated.json', 'utf8'));
 const gameData = JSON.parse(fs.readFileSync('game_data_cache.json', 'utf8'));
 

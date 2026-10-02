@@ -2,6 +2,7 @@
  * Indice de catalogos. El script Python `tools/scan_games.py` escribe los
  * archivos de cada consola dentro de esta carpeta.
  */
+import { PS1_GAMES } from './ps1.js'
 import { PS2_GAMES } from './ps2.js'
 import { PSP_GAMES } from './psp.js'
 import { PS3_GAMES } from './ps3.js'
@@ -10,6 +11,7 @@ import { PS4_GAMES } from './ps4.js'
 import { PS5_GAMES } from './ps5.js'
 
 export const GAMES_BY_CONSOLE = {
+  ps1: PS1_GAMES,
   ps2: PS2_GAMES,
   psp: PSP_GAMES,
   ps3: PS3_GAMES,
