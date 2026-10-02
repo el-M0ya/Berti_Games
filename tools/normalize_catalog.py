@@ -197,7 +197,7 @@ def parse_file(path: Path) -> list[dict]:
             # bloque y el titulo salia con el año y la descripcion pegados.
             m = re.search(rf"^\s{{4}}{key}: '(.*)',?\s*$", block, re.M)
             if m:
-                g[key] = m.group(1).replace("\\'", "'")
+                g[key] = js_unescape(m.group(1))
         m = re.search(r"^\s{4}players:\s*\[(.*?)\]", block, re.M)
         if m:
             g["players"] = re.findall(r"'([^']*)'", m.group(1))
@@ -211,14 +211,49 @@ def parse_file(path: Path) -> list[dict]:
             elif key == "favorite":
                 g["favorite"] = val == "true"
             else:
-                g[key] = val.strip().strip("'")
+                # OJO: la portada tambien hay que des-escapar. Si aqui solo
+                # se le sacan las comillas de los extremos, las barras se
+                # quedan en el valor y js_escape las vuelve a duplicar en la
+                # siguiente corrida (4095 -> 8191 -> 16383...).
+                g[key] = js_unescape(val.strip().strip("'"))
         g["_block"] = block
         juegos.append(g)
 
     return juegos
 
 
+# Si una portada tiene mas de esto, esta rota: son los restos de cuando las
+# barras se duplicaban en cada corrida. No hay nada que recuperar, asi que se
+# deja vacia y la tarjeta dibuja su portada de respaldo.
+BARRAS_ROTAS = re.compile(r"\\{5,}")
+
+
+def portada_sana(url: str) -> str:
+    """Si la URL esta corrupta por el bug de las barras, la descarta."""
+    if not url:
+        return ""
+    if BARRAS_ROTAS.search(url):
+        return ""
+    return url
+
+
+def js_unescape(text: str) -> str:
+    """
+    Pasa de como esta escrito en el archivo a su valor real.
+
+    El orden importa: primero se resuelve la doble barra (que representa una
+    barra literal) y despues las comillas escapadas. Si se hace al reves, cada
+    corrida duplica las barras.
+    """
+    marca = "\x00"  # no puede aparecer en una URL ni en un titulo
+    text = text.replace("\\\\", marca)
+    text = text.replace("\\'", "'").replace('\\"', '"')
+    text = text.replace(marca, "\\")
+    return text
+
+
 def js_escape(text: str) -> str:
+    """Valor real -> como se escribe en el archivo. Una sola vez."""
     return text.replace("\\", "\\\\").replace("'", "\\'")
 
 
@@ -234,7 +269,7 @@ def render(slug: str, juegos: list[dict]) -> str:
         out.append(f"    id: '{js_escape(g['id'])}',\n")
         out.append(f"    title: '{js_escape(g['title'])}',\n")
         out.append(f"    year: {g['year'] if g.get('year') else 'null'},\n")
-        out.append(f"    cover: '{js_escape(g.get('cover', ''))}',\n")
+        out.append(f"    cover: '{js_escape(portada_sana(g.get('cover', '')))}',\n")
         players = ", ".join(f"'{p}'" for p in g["players"])
         out.append(f"    players: [{players}],\n")
         genres = ", ".join(f"'{x}'" for x in g["genres"])

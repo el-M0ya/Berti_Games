@@ -1,0 +1,54 @@
+name: Tests
+
+# Tests sueltos. NO bloquean el deploy: si fallan, avisan, pero la web sigue
+# publicandose. El deploy esta en deploy.yml.
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          # 22 por node:sqlite (test_votes_api).
+          node-version: 22
+          cache: npm
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Tests de JavaScript
+        run: |
+          set +e
+          falla=0
+          for t in tools/test_geometry.mjs tools/test_catalog.mjs \
+                   tools/test_votes.mjs tools/test_votes_api.mjs; do
+            echo "--- $t"
+            node "$t" || falla=1
+          done
+          exit $falla
+
+      - name: Tests de Python
+        run: |
+          set +e
+          falla=0
+          for t in tools/test_titles.py tools/test_ps5_titles.py \
+                   tools/test_wiki_filter.py; do
+            echo "--- $t"
+            python "$t" || falla=1
+          done
+          exit $falla
+
+      - name: Aviso si los tests fallaron
+        if: failure()
+        run: echo "::warning::Hay tests en rojo. La web se publico igual: revisarlos."

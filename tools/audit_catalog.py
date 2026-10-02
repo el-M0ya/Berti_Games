@@ -66,7 +66,9 @@ def main() -> int:
     print("-" * 66)
 
     for path in sorted(GAMES.glob("*.js")):
-        if path.name == "index.js":
+        # En la carpeta tambien viven index.js y loader.js, que no son
+        # catalogos: se identifican porque exportsan algo como PS2_GAMES = [.
+        if "_GAMES = [" not in path.read_text(encoding="utf-8"):
             continue
         juegos = parse(path)
         if not juegos:

@@ -21,9 +21,10 @@ GENRE = re.compile(r"^\s{4}genre:\s*'(.*)',?\s*$", re.M)
 def main() -> int:
     tokens = Counter()
     for path in sorted(GAMES.glob("*.js")):
-        if path.name == "index.js":
+        texto = path.read_text(encoding="utf-8")
+        if "_GAMES = [" not in texto:
             continue
-        for m in GENRE.finditer(path.read_text(encoding="utf-8")):
+        for m in GENRE.finditer(texto):
             raw = m.group(1)
             if raw in ("", "null"):
                 continue

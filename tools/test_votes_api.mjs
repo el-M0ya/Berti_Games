@@ -7,10 +7,19 @@
  *
  * Uso: node tools/test_votes_api.mjs
  */
-import { DatabaseSync } from 'node:sqlite'
 import { readFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
 import { dirname, join } from 'node:path'
+// node:sqlite aparece en Node 22.5. Si no esta, avisamos bien en vez de
+// reventar con un error de modulo que no dice nada.
+let DatabaseSync
+try {
+  ;({ DatabaseSync } = await import('node:sqlite'))
+} catch {
+  console.log('\nEste test necesita Node 22.5 o superior (usa node:sqlite).')
+  console.log(`Version actual: ${process.version}. No se ejecuta.\n`)
+  process.exit(0)
+}
 
 const RAIZ = join(dirname(fileURLToPath(import.meta.url)), '..')
 const votes = await import('../functions/api/votes.js')
